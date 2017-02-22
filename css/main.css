@@ -19,13 +19,26 @@ html {
   box-sizing: inherit;
 }
 
-ul .navigation {
-  list-style-type: none;
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #9cddcb;
+}
+
+ul.navigation {
+  padding: 0;
+  margin: 0;
 }
 
 li {
   list-style-type: none;
   display: inline-block;
+  width: 49%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  border: 1px solid white;
 }
 
 .img-flex {
