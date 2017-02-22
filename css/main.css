@@ -18,3 +18,16 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+ul .navigation {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.img-flex {
+  width: 100%;
+}
