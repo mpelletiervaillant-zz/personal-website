@@ -153,6 +153,5 @@ h2 {
 p {
   font-family:'Fjalla One', sans-serif;
   color: white;
-  padding: 2em;
-  text-align: center;
+  margin: 2em 0;
 }
