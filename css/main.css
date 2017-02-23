@@ -63,7 +63,6 @@ ul.nav {
 .nav-label img {
   display: block;
   width: 100%;
-
 }
 
 .nav-check {
@@ -106,6 +105,28 @@ nav li:hover {
   cursor: pointer;
 }
 
+.banner {
+  position: relative;
+}
+
+.value-prop-img {
+  padding: 1em;
+}
+
+.value-prop-img {
+  position: absolute;
+  bottom: 40%;
+}
+
+h2 {
+  position: absolute;
+  bottom: 30%;
+}
+
+.banner-btn {
+  position: absolute;
+  bottom: 0;
+}
 
 .introduction {
   background-color: #82BFB6;
