@@ -216,3 +216,53 @@ h3 {
 .featured a:hover {
   color: #F76C4A;
 }
+
+footer {
+  background-color: #82BFB6;
+}
+
+.social-media {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.social-media li {
+  display: inline-block;
+  width: 16%;
+}
+
+img.sm-icon {
+  float: left;
+  width: 40px;
+  margin: .3em;
+}
+
+img.sm-icon:hover {
+  opacity: .5;
+  transition: opacity .35s;
+}
+
+ul.btm-nav {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.btm-nav li {
+  width: 16%;
+  margin: .3em;
+  display: inline-block;
+}
+
+.btm-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.btm-nav a:hover {
+  color: #ffe85a;
+}
