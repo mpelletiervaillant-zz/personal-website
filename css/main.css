@@ -150,7 +150,7 @@ h2.credit {
   background-color: #82BFB6;
 }
 
-p {
+.intro-text {
   font-family:'Fjalla One', sans-serif;
   color: white;
   margin: 2em 0;
@@ -265,4 +265,8 @@ ul.btm-nav {
 
 .btm-nav a:hover {
   color: #ffe85a;
+}
+
+p.copyright {
+  color: white;
 }
