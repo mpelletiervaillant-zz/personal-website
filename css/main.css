@@ -21,7 +21,7 @@ body {
   margin: 0;
 }
 
-.head-logo {
+header {
   background-color: #82BFB6;
   text-align: center;
   padding: .5em 0;
@@ -29,6 +29,7 @@ body {
 
 img.logo {
   width: 30%;
+  display: inline-block;
 }
 
 .img-flex {
@@ -56,11 +57,13 @@ ul.nav {
   position: absolute;
   top: 1.3em;
   left: .5em;
+  text-align: center;
 }
 
 .nav-label img {
   display: block;
   width: 100%;
+
 }
 
 .nav-check {
@@ -71,8 +74,8 @@ ul.nav {
 nav li {
   display: inline-block;
   float: left;
-  width: 50%;
-  background-color: #01a2be;
+  width: 100%;
+  background-color: #82BFB6;
   padding: .3em;
   text-align: center;
   border-top: 1px solid white;
@@ -89,14 +92,15 @@ nav li:nth-child(even) {
 nav a {
   text-decoration: none;
   color: white;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 nav a:hover {
-  color: #01a2be;
+  color: #609A91;
 }
 
 nav li:hover {
-  background-color: #ffe85a;
+  background-color: #609A91;
   color: #01a2be;
   transition: background-color .35s, color .35s;
   cursor: pointer;
@@ -108,7 +112,7 @@ nav li:hover {
 }
 
 p {
-  font-family: 'Fjalla One', sans-serif;
+  font-family:'Fjalla One', sans-serif;
   color: white;
   padding: 2em;
   text-align: center;
