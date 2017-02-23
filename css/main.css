@@ -23,25 +23,99 @@ body {
   margin: 0;
 }
 
-.logo {
-  padding: 2rem;
-}
-
-ul.navigation {
-  padding: 0;
-  margin: 0;
-  padding-bottom: 1rem;
-}
-
-li {
-  list-style-type: none;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  border: 1px solid white;
-}
-
 .img-flex {
   width: 100%;
+}
+
+nav {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+.logo-head {
+  background-color: #82bfb6;
+  }
+
+img.logo {
+  display: inline-block;
+  margin: 0 auto;
+  width: 30%;
+  padding: 1em 0;
+  text-align: center;
+}
+
+ul.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  overflow: hidden;
+  display: none;
+  background-color: white;
+}
+
+.nav-check:checked ~ ul.nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+  top: 1.3em;
+  left: .5em;
+}
+
+.nav-label img {
+  display: block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+nav li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  background-color: #01a2be;
+  padding: .3em;
+  text-align: center;
+  border-top: 1px solid white;
+}
+
+nav li:nth-child(odd) {
+  border-right: 1px solid white;
+}
+
+nav li:nth-child(even) {
+  border-right: 1px solid white;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: #01a2be;
+}
+
+nav li:hover {
+  background-color: #ffe85a;
+  color: #01a2be;
+  transition: background-color .35s, color .35s;
+  cursor: pointer;
+}
+
+.banner {
+  position: absolute;
+  clip: rect(0px, 588px, 455px, 268px);
 }
