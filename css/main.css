@@ -203,3 +203,16 @@ h3 {
   cursor: pointer;
   transition: background-color .35s, color .35s;
 }
+
+.featured h2{
+  color: #82BFB6;
+}
+
+.featured a {
+  text-decoration: none;
+  color: #82BFB6;
+}
+
+.featured a:hover {
+  color: #F76C4A;
+}
