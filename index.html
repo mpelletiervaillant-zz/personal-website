@@ -7,6 +7,7 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <script src="myscripts.js"></script>
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 </head>
@@ -24,7 +25,8 @@
       <ul class="nav">
         <li><a href="#">HOME</a></li>
         <li><a href="#">ABOUT</a></li>
-        <li><a href="work.html">WORK</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li><a href="work.html">SHOP</a></li>
         <li><a href="#">CONTACT</a></li>
       </ul>
     </div>
@@ -67,26 +69,14 @@
     </ul>
   </section>
 
-  <section class="featured">
-    <h2 class="yotta text-center">FEATURED PRODUCTS</h2>
+  <div class="slider" id="main-slider"><!-- outermost container element -->
+	<div class="slider-wrapper"><!-- innermost wrapper element -->
+		<img src="images/card-front.jpg" alt="First" class="slide" /><!-- slides -->
+		<img src="images/print-front.jpg" alt="Second" class="slide" />
 
-    <div class="grid">
-      <div class="unit">
-        <img class="img-flex gutter-2" src="images/card-front.jpg" alt="">
-        <h3 class="text-center peta"><a href="#">VIEW GREETING CARDS</a></h3>
-      </div>
+	</div>
+</div>
 
-      <div class="unit">
-        <img class="img-flex gutter-2" src="images/print-front.jpg" alt="">
-        <h3 class="text-center peta"><a href="#">VIEW PRINTS</a></h3>
-      </div>
-
-      <div class="unit">
-        <img class="img-flex gutter-2" src="images/front-lessons.jpg" alt="">
-        <h3 class="text-center peta"><a href="#">VIEW LESSONS</a></h3>
-      </div>
-    </div>
-  </section>
 
   <footer>
     <ul class="social-media">
@@ -118,6 +108,7 @@
     <p class="copyright text-center mili pad-b"><small class="mili">© 2017 Melany PV</small></p>
 
 </footer>
+
 
 
 
