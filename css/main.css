@@ -70,15 +70,7 @@ ul.nav {
   top: -3em;
 }
 
-nav li {
-  display: inline-block;
-  float: left;
-  width: 100%;
-  background-color: #82BFB6;
-  padding: .3em;
-  text-align: center;
-  border-top: 1px solid white;
-}
+
 
 nav li:nth-child(odd) {
   border-right: 1px solid white;
@@ -92,6 +84,13 @@ nav a {
   text-decoration: none;
   color: white;
   font-family: 'Fjalla One', sans-serif;
+  display: inline-block;
+  float: left;
+  width: 100%;
+  background-color: #82BFB6;
+  padding: .3em;
+  text-align: center;
+  border-top: 1px solid white;
 }
 
 nav a:hover {
