@@ -106,15 +106,10 @@ nav li:hover {
   display: none;
 }
 .value-prop-img {
-  padding: 1em;
-}
-
-.value-prop-img {
-  bottom: 40%;
+  padding: 2em 1em;
 }
 
 h2.credit {
-  position: absolute;
   bottom: 30%;
   left: 50%;
   transform: translateX(-50%);
@@ -327,6 +322,15 @@ figcaption {
 
   .banner-med {
     display: inline-block;
+  }
 
+  h2.credit {
+    bottom: 25%;
+    font-size: 2em;
+  }
+
+  .banner-btn {
+    font-size: 1.5em;
+    bottom: 15%;
   }
 }
