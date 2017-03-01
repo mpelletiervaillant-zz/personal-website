@@ -70,8 +70,6 @@ ul.nav {
   top: -3em;
 }
 
-
-
 nav li:nth-child(odd) {
   border-right: 1px solid white;
 }
@@ -108,6 +106,9 @@ nav li:hover {
   position: relative;
 }
 
+.banner-med {
+  display: none;
+}
 .value-prop-img {
   padding: 1em;
 }
@@ -159,16 +160,30 @@ h2.credit {
   padding: 0;
 }
 
-.service-icon {
-  max-width: 170px;
+.tools-icon {
+  max-width: 100px;
 }
 
 .cards li {
   list-style-type: none;
   border: 2px solid #82BFB6;
   border-radius: 5px;
-  max-width: 250px;
+  max-width: 200px;
   margin: .5em auto;
+}
+
+.services {
+  background-color: #82BFB6;
+  margin: 2em 0;
+}
+
+.services h2 {
+  color: white;
+}
+
+.services-text {
+  color: white;
+  font-family: 'News Cycle', sans-serif;
 }
 
 .products {
@@ -303,4 +318,21 @@ h1 {
 
 figcaption {
   color: #F76C4A;
+}
+
+@media only screen and (min-width: 34em) {
+
+  img.logo {
+    width: 15%;
+    display: inline-block;
+  }
+
+  .banner-small {
+    display: none;
+  }
+
+  .banner-med {
+    display: inline-block;
+
+  }
 }
