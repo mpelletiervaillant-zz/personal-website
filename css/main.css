@@ -46,11 +46,11 @@ ul.nav {
   background-color: white;
 }
 
-.nav-check:checked ~ ul.nav {
+.navig-check:checked ~ ul.nav {
   display: block;
 }
 
-.nav-label {
+.navig-label {
   cursor: pointer;
   display: inline-block;
   width: 40px;
@@ -60,12 +60,12 @@ ul.nav {
   text-align: center;
 }
 
-.nav-label img {
+.navig-label img {
   display: block;
   width: 100%;
 }
 
-.nav-check {
+.navig-check {
   position: absolute;
   top: -3em;
 }
@@ -102,10 +102,6 @@ nav li:hover {
   cursor: pointer;
 }
 
-.banner {
-  position: relative;
-}
-
 .banner-med {
   display: none;
 }
@@ -114,7 +110,6 @@ nav li:hover {
 }
 
 .value-prop-img {
-  position: absolute;
   bottom: 40%;
 }
 
@@ -128,7 +123,6 @@ h2.credit {
 }
 
 .banner-btn {
-  position: absolute;
   bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
