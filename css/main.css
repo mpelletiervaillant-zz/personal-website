@@ -137,12 +137,12 @@ h2.credit {
 
 .introduction {
   background-color: #82BFB6;
+  margin: 1em 0;
 }
 
 .intro-text {
-  font-family:'Fjalla One', sans-serif;
+  font-family: 'Suranna', serif;
   color: white;
-  margin: 2em 0;
 }
 
 .cards {
@@ -151,13 +151,15 @@ h2.credit {
 
 .tools-icon {
   max-width: 100px;
+  display: inline-block;
+  float: left;
 }
 
 .cards li {
   list-style-type: none;
   border: 2px solid #82BFB6;
   border-radius: 5px;
-  max-width: 200px;
+  max-width: 300px;
   margin: .5em auto;
 }
 
@@ -166,7 +168,7 @@ h2.credit {
   margin: 2em 0;
 }
 
-.services h2 {
+h2 {
   color: white;
 }
 
