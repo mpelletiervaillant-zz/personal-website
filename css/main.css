@@ -28,8 +28,9 @@ header {
 }
 
 img.logo {
-  width: 30%;
+  width: 100px;
   display: inline-block;
+  margin: .5em auto;
 }
 
 .img-flex {
@@ -105,8 +106,17 @@ nav li:hover {
 .banner-med {
   display: none;
 }
+
+.banner-large {
+  display: none;
+}
+
 .value-prop-img {
   padding: 2em 1em;
+}
+
+.value-prop-large {
+  display: none;
 }
 
 h2.credit {
@@ -284,7 +294,6 @@ html,body {
 .slider {
 	width: 300px;
 	margin: 2em auto;
-
 }
 
 .slider-wrapper {
@@ -299,13 +308,12 @@ html,body {
 	width: 100%;
 	height: 100%;
 	opacity: 0;
-	transition: opacity 3s linear;
+	transition: opacity .5s linear;
 }
 
 .slider-wrapper > .slide:first-child {
 	opacity: 1;
 }
-
 
 /*PORTFOLIO*/
 
@@ -332,6 +340,10 @@ figcaption {
     display: inline-block;
   }
 
+  .banner-large {
+    display: none;
+  }
+
   h2.credit {
     bottom: 25%;
     font-size: 2em;
@@ -340,5 +352,45 @@ figcaption {
   .banner-btn {
     font-size: 1.5em;
     bottom: 15%;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  ul.nav {
+    display: block;
+  }
+
+  .nav-label img {
+    display: none;
+  }
+
+  .banner-med {
+    display: none;
+  }
+
+  .banner-large {
+    display: inline-block;
+  }
+
+  .value-prop-img {
+    display: none;
+  }
+
+  .value-prop-large {
+    display: inline-block;
+  }
+
+  .logo {
+    float :left;
+  }
+
+  .navig-label {
+    display: none;
+  }
+
+  nav a {
+  width: 14.2%;
+    border: none;
   }
 }
