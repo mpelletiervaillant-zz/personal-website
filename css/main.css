@@ -24,83 +24,58 @@ body {
 header {
   background-color: #82BFB6;
   text-align: center;
-  padding: .5em 0;
 }
 
 img.logo {
   width: 100px;
-  display: inline-block;
   margin: .5em auto;
 }
 
-.img-flex {
-  width: 100%;
-}
-
 ul.nav {
-  list-style-type: none;
   padding: 0;
   margin: 0;
   text-align: center;
-  overflow: hidden;
   display: none;
-  background-color: white;
 }
 
-.navig-check:checked ~ ul.nav {
+.nav-check:checked ~ ul.nav {
   display: block;
 }
 
-.navig-label {
+.nav-label {
   cursor: pointer;
   display: inline-block;
   width: 40px;
   position: absolute;
   top: 1.3em;
   left: .5em;
-  text-align: center;
 }
 
-.navig-label img {
+.nav-label img {
   display: block;
   width: 100%;
 }
 
-.navig-check {
+.nav-check {
   position: absolute;
   top: -3em;
 }
 
-nav li:nth-child(odd) {
-  border-right: 1px solid white;
-}
-
-nav li:nth-child(even) {
-  border-right: 1px solid white;
-}
-
-nav a {
+nav a{
   text-decoration: none;
-  color: white;
+  color: #fff;
   font-family: 'Fjalla One', sans-serif;
-  display: inline-block;
-  float: left;
-  width: 100%;
-  background-color: #82BFB6;
-  padding: .3em;
-  text-align: center;
-  border-top: 1px solid white;
+
 }
 
-nav a:hover {
-  color: #609A91;
+nav li {
+    border-top: 1px solid white;
+    padding: .3em;
 }
 
 nav li:hover {
-  background-color: #609A91;
-  color: #01a2be;
-  transition: background-color .35s, color .35s;
   cursor: pointer;
+  background-color: #609A91;
 }
 
 .banner-med {
@@ -327,10 +302,6 @@ figcaption {
 
 @media only screen and (min-width: 34em) {
 
-  img.logo {
-    width: 15%;
-    display: inline-block;
-  }
 
   .banner-small {
     display: none;
@@ -356,14 +327,28 @@ figcaption {
 }
 
 @media only screen and (min-width: 38em) {
-
   ul.nav {
-    display: block;
-  }
+  display: inline-block;
+}
 
-  .nav-label img {
-    display: none;
-  }
+.nav-label img{
+  display: none;
+}
+
+nav li {
+  display: inline-block;
+  border: 0px;
+  padding: 0 2em;
+}
+
+nav li:hover {
+  background-color: #82BFB6;
+}
+
+nav a:hover {
+  color: #609A91;
+}
+
 
   .banner-med {
     display: none;
@@ -380,17 +365,3 @@ figcaption {
   .value-prop-large {
     display: inline-block;
   }
-
-  .logo {
-    float :left;
-  }
-
-  .navig-label {
-    display: none;
-  }
-
-  nav a {
-  width: 14.2%;
-    border: none;
-  }
-}
