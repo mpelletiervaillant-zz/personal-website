@@ -250,6 +250,10 @@ h3 {
   display: none;
 }
 
+.products-btn {
+  display: none;
+}
+
 /*FOOTER*/
 
 footer {
@@ -383,7 +387,6 @@ p.copyright {
   }
 
   .products-wrapper {
-
     display: block;
     max-width: 600px;
     margin: 0 auto;
@@ -404,9 +407,25 @@ p.copyright {
     display: inline-block;
     font-family: 'Suranna', serif;
     color: #82BFB6;
-    max-width: 250px;
+    max-width: 300px;
     vertical-align: middle;
-    margin-left: .5em;
+    margin-left: 1em;
+  }
+
+  .products-text a {
+    display: inline-block;
+    color: #82BFB6;
+    font-family: 'Fjalla One', sans-serif;
+    border: 1px #82BFB6 solid;
+    border-radius: 10px;
+    margin-top: 1em;
+    padding: .5em .7em;
+  }
+
+  .products-text a:hover {
+    color: #F76C4A;
+    border-color: #F76C4A;
+    transition: border-color .35s, color .35s;
   }
 
   .social-media li {
@@ -456,6 +475,22 @@ p.copyright {
 
     h3 {
       margin-top: .5em;
+    }
+
+    .products-wrapper {
+      max-width: 800px;
+    }
+
+    .slider-wrapper {
+      height: 350px;
+    }
+
+    .slider {
+      width: 350px;
+    }
+
+    .products-text {
+      max-width: 350px;
     }
 
     .social-media li {
