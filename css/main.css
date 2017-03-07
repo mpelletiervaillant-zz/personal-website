@@ -93,6 +93,10 @@ nav li:hover {
   display: none;
 }
 
+.banner-xl {
+  display: none;
+}
+
 .value-prop-img {
   padding: 2em 1em;
 }
@@ -504,6 +508,39 @@ p.copyright {
     .btm-nav a {
       font-size: 1em;
     }
+
+    @media only screen and (min-width: 90em) {
+
+    html {
+      font-size: 130%;
+    }
+
+    .banner-large {
+      display: none;
+    }
+
+    .banner-xl {
+      display: inline-block;
+    }
+
+    .value-prop-large {
+      top: 17%;
+    }
+
+    h2.credit {
+      bottom: 37%;
+      font-size: 2em;
+    }
+
+    .banner-btn {
+      font-size: 1.5em;
+      bottom: 25%;
+    }
+
+    .cards li {
+      width: 350px;
+    }
+
 
 -----------------------------
 .products h2 {
