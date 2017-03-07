@@ -213,7 +213,6 @@ h3 {
 .products a {
   color: white;
   text-decoration: none;
-
 }
 
 .products li:hover {
@@ -379,6 +378,19 @@ p.copyright {
     bottom: 25%;
   }
 
+  .social-media li {
+    padding: 0 .5em;
+  }
+
+  .btm-nav li {
+    padding: 0 .7em;
+  }
+
+  .btm-nav a {
+    font-size: 1em;
+  }
+}
+
   @media only screen and (min-width: 60em) {
 
     nav li {
@@ -403,6 +415,7 @@ p.copyright {
       padding: 1em;
       display: inline-block;
       margin: 0 1em;
+      width: 250px;
     }
 
     .tools-icon {
@@ -412,6 +425,18 @@ p.copyright {
 
     h3 {
       margin-top: .5em;
+    }
+
+    .social-media li {
+      padding: 0 1em;
+    }
+
+    .btm-nav li {
+      padding: 1em;
+    }
+
+    .btm-nav a {
+      font-size: 1em;
     }
 
 -----------------------------
