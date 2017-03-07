@@ -73,7 +73,6 @@ nav a{
   text-decoration: none;
   color: #fff;
   font-family: 'Fjalla One', sans-serif;
-
 }
 
 nav li {
@@ -222,9 +221,6 @@ h3 {
   cursor: pointer;
 }
 
-
-
-
 /*SLIDESHOW*/
 
 .slider {
@@ -266,13 +262,13 @@ ul.social-media {
 
 .social-media li {
   display: inline-block;
-  padding: 0 1em;
+  padding: 0 .5em;
 }
 
 img.sm-icon {
   float: left;
   width: 40px;
-  margin: .3em;
+  margin: .5em;
 }
 
 img.sm-icon:hover {
@@ -289,9 +285,8 @@ ul.btm-nav {
 }
 
 .btm-nav li {
-  width: 16%;
-
   display: inline-block;
+  padding: .1em;
 }
 
 .btm-nav a {
@@ -309,7 +304,6 @@ p.copyright {
 
 @media only screen and (min-width: 34em) {
 
-
   .banner-small {
     display: none;
   }
@@ -324,7 +318,7 @@ p.copyright {
 
   h2.credit {
     bottom: 25%;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .banner-btn {
@@ -336,27 +330,26 @@ p.copyright {
 @media only screen and (min-width: 38em) {
 
   ul.nav {
-  display: inline-block;
-}
+    display: inline-block;
+  }
 
-.nav-label img{
-  display: none;
-}
+  .nav-label img {
+    display: none;
+  }
 
-nav li {
-  display: inline-block;
-  border: 0px;
-  padding: 0 2em;
-}
+  nav li {
+    display: inline-block;
+    border: 0px;
+    padding: 0 .5em;
+  }
 
-nav li:hover {
-  background-color: #82BFB6;
-}
+  nav li:hover {
+    background-color: #82BFB6;
+  }
 
-nav a:hover {
-  color: #609A91;
-}
-
+  nav a:hover {
+    color: #609A91;
+  }
 
   .banner-med {
     display: none;
@@ -372,7 +365,54 @@ nav a:hover {
 
   .value-prop-large {
     display: inline-block;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%)
   }
+
+  h2.credit {
+    bottom: 37%;
+  }
+
+  .banner-btn {
+    font-size: 1em;
+    bottom: 25%;
+  }
+
+  @media only screen and (min-width: 60em) {
+
+    nav li {
+      padding: 0 1.7em;
+    }
+
+    .value-prop-large {
+      top: 20%;
+    }
+
+    h2.credit {
+      bottom: 37%;
+      font-size: 2em;
+    }
+
+    .banner-btn {
+      font-size: 1.5em;
+      bottom: 25%;
+    }
+
+    .cards li {
+      padding: 1em;
+      display: inline-block;
+      margin: 0 1em;
+    }
+
+    .tools-icon {
+      max-width: 100px;
+      float: none;
+    }
+
+    h3 {
+      margin-top: .5em;
+    }
 
 -----------------------------
 .products h2 {
@@ -397,6 +437,16 @@ nav a:hover {
   cursor: pointer;
   transition: background-color .35s, color .35s;
 }
+
+ul.social-media {
+  margin-bottom: .5em;
+}
+
+.btm-nav li {
+  padding: 0 1em;
+}
+
+
 
 /*PORTFOLIO*/
 
