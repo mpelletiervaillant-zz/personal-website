@@ -110,16 +110,15 @@ nav li:hover {
   display: none;
 }
 
-h2.credit {
-  bottom: 30%;
+.by-melany {
+  width: 50%;
+  bottom: 29%;
   left: 50%;
   transform: translateX(-50%);
-  color: white;
-  font-family: 'Fjalla One', sans-serif;
 }
 
 .banner-btn {
-  bottom: 20%;
+  bottom: 15%;
   left: 50%;
   transform: translateX(-50%);
   color: white;
@@ -143,8 +142,8 @@ h2.credit {
   margin: 2em 0;
 }
 
-.introduction h2 {
-  color: #fff;
+.meet-melany {
+  width: 200px;
 }
 
 .intro-text {
@@ -341,14 +340,18 @@ p.copyright {
     display: none;
   }
 
-  h2.credit {
+  .value-prop-img {
+    width: 85%;
+  }
+
+  .by-melany {
     bottom: 25%;
-    font-size: 1.5em;
+    width: 40%;
   }
 
   .banner-btn {
     font-size: 1.5em;
-    bottom: 15%;
+    bottom: 12%;
   }
 }
 
@@ -392,16 +395,18 @@ p.copyright {
     display: inline-block;
     left: 50%;
     top: 15%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
+    width: 90%;
   }
 
-  h2.credit {
-    bottom: 37%;
+  .by-melany {
+    width: 25%;
+    bottom: 35%;
   }
 
   .banner-btn {
     font-size: 1em;
-    bottom: 25%;
+    bottom: 20%;
   }
 
   .products-wrapper {
@@ -469,14 +474,9 @@ p.copyright {
       top: 20%;
     }
 
-    h2.credit {
-      bottom: 37%;
-      font-size: 2em;
-    }
-
     .banner-btn {
       font-size: 1.5em;
-      bottom: 25%;
+      bottom: 22%;
     }
 
     .cards li {
@@ -541,14 +541,14 @@ p.copyright {
       top: 17%;
     }
 
-    h2.credit {
-      bottom: 37%;
-      font-size: 2em;
+    .by-melany {
+      width: 18%;
+      bottom: 33%;
     }
 
     .banner-btn {
       font-size: 1.5em;
-      bottom: 25%;
+      bottom: 20%;
     }
 
     .cards li {
