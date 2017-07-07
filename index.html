@@ -10,12 +10,28 @@
   <link href="css/main.css" rel="stylesheet">
   <script src="myscripts.js"></script>
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Suranna" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
+
+  <section class="banner relative">
+    <img class="img-flex banner-small" src="images/banner-small.jpg" alt="">
+
+    <img class="img-flex banner-med" src="images/banner-med.jpg" alt="">
+
+    <img class="img-flex banner-large" src="images/banner-large.jpg" alt="">
+
+    <img class="img-flex banner-xl" src="images/banner-xl.jpg" alt="">
+
+    <div class="banner-content absolute text-center">
+      <h1 class="">LET'S MAKE SOMETHING MEMORABLE</h1>
+      <div class="">
+        <a class="banner-btn" href="#">LEARN HOW</a>
+      </div>
+    </div>
+  </section>
+
   <header class="grid grid-middle">
 
       <div class="unit xs-1 m-1-4">
@@ -28,72 +44,77 @@
         <img src="images/drop-down.svg" alt="Open Navigation">
       </label>
 
-      <ul class="nav">
+      <ul class="nav list-group micro">
         <li><a href="#">HOME</a></li>
         <li><a href="#">ABOUT</a></li>
         <li><a href="portfolio.html">PORTFOLIO</a></li>
-        <li><a href="#">SHOP</a></li>
         <li><a href="#">SERVICES</a></li>
-        <li><a href="#">LEARN</a></li>
         <li><a href="#">CONTACT</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="banner relative">
-    <img class="img-flex banner-small" src="images/banner-small.jpg" alt="">
-
-    <img class="img-flex banner-med" src="images/banner-med.jpg" alt="">
-
-    <img class="img-flex banner-large" src="images/banner-large.jpg" alt="">
-
-    <img class="img-flex banner-xl" src="images/banner-xl.jpg" alt="">
-
-    <img class="img-flex value-prop-img absolute pin-tc" src="images/value-prop.svg" alt="">
-
-    <img class="img-flex value-prop-img value-prop-large absolute" src="images/value-prop-large.svg" alt="">
-
-    <img class="absolute by-melany" src="images/melany.svg" alt="">
-    <a class="banner-btn absolute" href="#">EXPLORE LETTERS</a>
-  </section>
-
   <section class="introduction island center-text">
-    <img class="meet-melany" src="images/meet-melany.svg" alt="">
-    <p class="intro-text text-center max-length">I am a graphic designer with a passion for letters! I taught myself brush letter over a year ago and now offer a range of services and products to share the beauty of handmade type with you!<br><a href="">LEARN MORE</a></p>
+    <small class="add micro">A LITTLE MORE</small>
+    <h2 class="subtitle">ABOUT ME</h2>
+    <p class="intro-text text-center max-length push milli">I am a graphic designer with a passion for letters! I taught myself brush letter over a year ago and now offer a range of services and products to share the beauty of handmade type with you!</p><a class="micro red-btn" href="">LEARN MORE</a>
   </section>
 
-  <section class="tools island">
-    <div class="tools-cards">
-      <ul class="cards text-center push-none">
+  <section class="services island center-text">
+    <h2 class="subtitle">SERVICES</h2>
+    <p class="services-text white max-length milli">Take a look of some of the services I offer. Don’t see what you are looking for? Send me a message and we can talk about your ideas!</p>
+
+    <div class="services-cards">
+      <ul class="cards push-none list-group">
 
         <li class="grid grid-middle">
-          <img class="tools-icon unit xs-1-3 l-1 island-1-2" src="images/icon-brush.svg" alt="">
-          <h3 class="push-0 unit xs-2-3 l-1">BRUSH LETTERING</h3></li>
+          <img class="services-icon unit xs-1 l-1 island-1-2" src="images/icon-brush.svg" alt="">
+          <h3 class="unit xs-1 l-1 push-1-2">PRINT DESIGN</h3>
+          <p class="list-text max-length milli unit xs-1">I’m a Graphic Designer with an interest in lettering and typography. From custom lettering, to typographical layout.</p>
+        </li>
 
         <li class="grid grid-middle">
-          <img class="tools-icon unit xs-1-3 l-1 island-1-2" src="images/icon-digital.svg" alt="">
-          <h3 class="push-0 unit xs-2-3 l-1">DIGITAL LETTERING</h3></li>
+          <img class="services-icon unit xs-1 l-1 island-1-2" src="images/icon-brush.svg" alt="">
+          <h3 class="unit xs-1 l-1 push-1-2">LETTERING</h3>
+          <p class="list-text milli unit xs-1">I’m a Graphic Designer with an interest in lettering and typography. From custom lettering, to typographical layout.</p>
+        </li>
 
         <li class="grid grid-middle">
-          <img class="tools-icon unit xs-1-3 l-1 island-1-2 " src="images/icon-chalk.svg" alt="">
-          <h3 class="push-0 unit xs-2-3 l-1">CHALK LETTERING</h3></li>
+          <img class="services-icon unit xs-1 l-1 island-1-2" src="images/icon-brush.svg" alt="">
+          <h3 class="unit xs-1 l-1 push-1-2">WEB DESIGN</h3>
+          <p class="list-text milli unit xs-1">I’m a Graphic Designer with an interest in lettering and typography. From custom lettering, to typographical layout.</p>
+        </li>
       </ul>
     </div>
   </section>
 
-  <section class="services island">
-    <h2 class="yotta text-center push">SERVICES</h2>
-    <p class="services-text text-center max-length">Lettering is perfect for any occasion or product! Getting married soon? Think about hand-lettered place cards or menus. Writting a book? Consider a hand-lettered cover to express your style. Lettering is a flexible medium that can be used for any discipline. We all communicate with words so why not make them your own?</p>
+  <section class="projects island center-text">
+    <small class="add micro">MY FAVOURITE</small>
+    <h2 class="subtitle push">PROJECTS</h2>
+    <p class="max-length">Enter Text Here</p>
   </section>
 
-  <section class="products pat-t">
-    <h2 class="yotta text-center">PRODUCTS</h2>
-    <ul class="products-list grid">
-      <li class="unit xs-1 text-center exa"><a href="#">GREETING CARDS</a></li>
-      <li class="unit xs-1 text-center exa"><a href="#">PRINTS</a></li>
-      <li class="unit xs-1 text-center exa"><a href="#">WOOD SIGNS</a></li>
-      <li class="unit xs-1 text-center exa"><a href="#">CUSTOM</a></li>
-    </ul>
+  <section class="clients island center-text">
+    <small class="add micro">MY AMAZING</small>
+    <h2 class="subtitle">CLIENTS</h2>
+  </section>
+
+  <section class="passion-projects island center-text">
+    <div class="grid grid-middle">
+      <div class="unit xs-1 s-1">
+        <h2 class="subtitle push">PASSION PROJECTS</h2>
+        <p class="pp-text max-length push">I believe that Passion Projects are super important to keeping the creative juices flowing. Check out my current project: Star Wars Icons!</p>
+        <a class="red-btn micro" href="">VIEW MORE</a>
+      </div>
+
+      <div class="unit xs-1 s-1">
+        <img class="img flex" src="images/" alt="">
+      </div>
+  </section>
+
+  <section class="chat text-center island">
+    <h2 class="subtitle push">LET'S CHAT</h2>
+  </section>
 
 
 <div class= "products-wrapper pad-t">
@@ -127,16 +148,6 @@
       <li>
         <a href="#"><img class="sm-icon" src="images/pinterest.svg" alt=""></a>
       </li>
-    </ul>
-
-    <ul class="btm-nav">
-      <li><a class="milli" href="">HOME</a></li>
-      <li><a class="milli" href="">ABOUT</a></li>
-      <li><a class="milli" href="">WORK</a></li>
-      <li><a class="milli" href="">SHOP</a></li>
-      <li><a class="milli" href="">SERVICES</a></li>
-      <li><a class="milli" href="">LEARN</a></li>
-      <li><a class="milli" href="">CONTACT</a></li>
     </ul>
 
     <p class="copyright text-center mili pad-b push-none"><small class="milli">© 2017 Melany PV</small></p>
