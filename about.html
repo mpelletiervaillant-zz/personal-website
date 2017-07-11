@@ -4,33 +4,48 @@
   <meta charset="utf-8">
   <title>Mélany PV</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <script src="myscripts.js"></script>
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
 
+  <header class="about-header grid grid-middle">
 
-  <header>
-      <nav>
-        <img class="img-flex logo unit xs-1 m-1-4" src="images/logo.png" alt="">
-        <input type="checkbox" class="nav-check" id="nav-check">
-        <label class="nav-label" for="nav-check">
-          <img src="images/drop-down.svg" alt="Open Navigation">
-        </label>
+      <div class="unit xs-1 m-1-4">
+      <a href="index.html"><img class="img-flex logo" src="images/logo.png" alt=""></a>
+    </div>
 
-        <ul class="nav">
-          <li><a class="col" href="#">Home</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">WORK</a></li>
-          <li><a href="#">SHOP</a></li>
-          <li><a href="#">CONTACT</a></li>
-          <li><a href="#">SERVICES</a></li>
-        </ul>
-      </nav>
-    </header>
+<nav class="unit xs-1 m-3-4 pad-t">
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label" for="nav-check">
+        <img src="images/drop-down.svg" alt="Open Navigation">
+      </label>
 
+      <ul class="nav list-group micro">
+        <li><a href="#">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <section class="about-me">
+      <small class="add micro">HEY THERE, I'M</small>
+    <h2 class="subtitle">MELANY</h2>
+    <p class="">I’m a Graphic Designer with an interest in lettering and typography. From custom lettering, to typographical layout.</p>
+
+    <p>I am currently attending Algonquin College for Graphic Design. I’ve worked on many projects, such as menus for restaurants, Wedding Invitations and more. I also keep myself busy with Passion Projects on the side.</p>
+
+    <p>I’d  love to hear about your ideas and projects, feel free to send me a message!</p>
+  </section>
+
+</body>
 </html>

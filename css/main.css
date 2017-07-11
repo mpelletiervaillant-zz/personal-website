@@ -23,7 +23,7 @@ body {
 
 /*HEADER*/
 
-header {
+.index-header {
   text-align: center;
   background-color: #73C4C4;
 }
@@ -248,6 +248,12 @@ p.copyright {
   color: white;
 }
 
+/*ABOUT PAGE*/
+
+.about-header {
+  background-color: #73C4C4;
+}
+
 @media only screen and (min-width: 34em) {
 
   .banner-small {
@@ -264,7 +270,7 @@ p.copyright {
 
 @media only screen and (min-width: 38em) {
 
-  header {
+  .index-header {
     position: absolute;
     top: 0%;
     width: 100%;
