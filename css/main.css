@@ -25,11 +25,13 @@ body {
 
 header {
   text-align: center;
+  background-color: #73C4C4;
 }
 
 img.logo {
   width: 100px;
   margin: .5em auto;
+  display: none;
 }
 
 img.logo:hover {
@@ -78,14 +80,9 @@ nav li {
   padding: .3em;
 }
 
-.nav a:hover {
-  color: #609A91;
-  transition: color .35s;
-}
-
 nav li:hover {
   cursor: pointer;
-  background-color: #609A91;
+  background-color: #ED5943;
 }
 
 .banner-med {
@@ -129,10 +126,6 @@ h1 {
 
 /*INTRODUCTION*/
 
-.introduction {
-  margin: 2em 0;
-}
-
 .add {
   color: #ED5943;
 }
@@ -156,9 +149,9 @@ h1 {
   padding: 1em 3em;
 }
 
-.introduction a:hover {
-  color: #609A91;
-  border-color: #609A91;
+.red-btn:hover {
+  color: #73C4C4;
+  border-color: #73C4C4;
   transition: border-color .35s, color .35s;
 }
 
@@ -201,8 +194,9 @@ h3 {
 
 /*PROJECTS*/
 
-.projects {
-  margin: 2em 0;
+.portfolio-hover:hover {
+  opacity: .5;
+  transition: opacity .5s;
 }
 
 /*CLIENTS*/
@@ -222,62 +216,27 @@ section.chat {
   background-color: #F0F0F0;
 }
 
-/*SLIDESHOW*/
-
-.slider {
-	width: 300px;
-	margin: 2em auto;
+input,
+select,
+textarea,
+option {
+  border: 2px #ED5A44 solid;
 }
 
-.slider-wrapper {
-	width: 100%;
-	height: 300px;
-	position: relative;
-}
-
-.slide {
-	float: left;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	transition: opacity .5s linear;
-}
-
-.slider-wrapper > .slide:first-child {
-	opacity: 1;
-}
-
-.products-text {
-  display: none;
-}
-
-.products-btn {
-  display: none;
+.send-btn {
+  background-color: #F0F0F0;
 }
 
 /*FOOTER*/
 
 footer {
-  background-color: #82BFB6;
-}
-
-ul.social-media {
-  list-style-type: none;
-  padding: 0;
-  padding-top: 2em;
+  background-color: #73C4C4;
   text-align: center;
-}
-
-.social-media li {
-  display: inline-block;
-  padding: 0 .5em;
+  padding: 2em 0;
 }
 
 img.sm-icon {
-  float: left;
-  width: 40px;
-  margin: .5em;
+  width: 50px;
 }
 
 img.sm-icon:hover {
@@ -303,31 +262,23 @@ p.copyright {
     display: none;
   }
 
-  .value-prop-img {
-    width: 85%;
-  }
-
-  .by-melany {
-    bottom: 25%;
-    width: 40%;
-  }
-
-  .banner-btn {
-    font-size: 1.5em;
-    bottom: 12%;
-  }
-}
-
 @media only screen and (min-width: 38em) {
 
   header {
     position: absolute;
     top: 0%;
     width: 100%;
+    background-color: transparent;
+  }
+
+  nav {
+    text-align: right;
+    padding-right: 3em;
   }
 
   ul.nav {
     display: inline-block;
+    padding-top: 1em;
   }
 
   .nav-label img {
@@ -341,11 +292,11 @@ p.copyright {
   }
 
   nav li:hover {
-    background-color: #82BFB6;
+    background-color: transparent;
   }
 
   nav a:hover {
-    color: #609A91;
+    color: #ED5943;
   }
 
   .banner-med {
@@ -356,68 +307,22 @@ p.copyright {
     display: inline-block;
   }
 
-  .value-prop-img {
-    display: none;
+  /*PASSION PROJECT*/
+
+  .pp-div {
+    text-align: left;
   }
 
-  .value-prop-large {
+  /*CHAT*/
+
+  .one {
+    width: 49.5%;
+
     display: inline-block;
-    left: 50%;
-    top: 15%;
-    transform: translateX(-50%);
-    width: 90%;
   }
 
-  .by-melany {
-    width: 25%;
-    bottom: 35%;
-  }
-
-  .banner-btn {
-    font-size: 1em;
-    bottom: 20%;
-  }
-
-  .products-wrapper {
-    display: block;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-  .slider-wrapper {
-  	height: 275px;
-  }
-
-  .slider {
-  	width: 275px;
-  	margin: 1em 0;
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  .products-text {
-    display: inline-block;
-    font-family: "Playfair Display", serif;
-    color: #82BFB6;
-    max-width: 300px;
-    vertical-align: middle;
-    margin-left: 1em;
-  }
-
-  .products-text a {
-    display: inline-block;
-    color: #82BFB6;
-    font-family: 'Fjalla One', sans-serif;
-    border: 2px #82BFB6 solid;
-    border-radius: 3px;
-    margin-top: 1em;
-    padding: .5em .7em;
-  }
-
-  .products-text a:hover {
-    color: #F76C4A;
-    border-color: #F76C4A;
-    transition: border-color .35s, color .35s;
+  .two {
+    padding-right: 1em;
   }
 
   .social-media li {
@@ -439,45 +344,8 @@ p.copyright {
       padding: 0 1.7em;
     }
 
-    .value-prop-large {
-      top: 20%;
-    }
-
-    .banner-btn {
-      font-size: 1.5em;
-      bottom: 22%;
-    }
-
-    .cards li {
-      padding: 1em;
-      display: inline-block;
-      margin: 0 1em;
-      width: 250px;
-    }
-
-    .tools-icon {
-      max-width: 100px;
-      float: none;
-    }
-
     h3 {
       margin-top: .5em;
-    }
-
-    .products-wrapper {
-      max-width: 800px;
-    }
-
-    .slider-wrapper {
-      height: 350px;
-    }
-
-    .slider {
-      width: 350px;
-    }
-
-    .products-text {
-      max-width: 350px;
     }
 
     .social-media li {
