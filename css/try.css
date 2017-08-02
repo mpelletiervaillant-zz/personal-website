@@ -127,6 +127,10 @@ section.services {
   margin: 0 auto;
 }
 
+.services h3 {
+  font-weight: 500;
+}
+
 .list-text {
   color: #fff;
   font-weight: 400;
@@ -157,6 +161,10 @@ section.weddings {
   background-color: #8DCCCC;
   color: #fff;
   transition: background-color .35s, color .35s;
+}
+
+.test {
+  padding: 2em 0;
 }
 
 section.passion-projects {
@@ -202,6 +210,11 @@ img.sm-icon:hover {
 
 p.copyright {
   color: white;
+  margin: 1em 0;
+}
+
+.french-btn {
+  text-decoration: none;
 }
 
 p {
@@ -292,7 +305,7 @@ p {
   }
 
   .social-media li {
-    padding: 0 .5em;
+    padding: 0 .2em;
   }
 
   .btm-nav li {
@@ -328,7 +341,9 @@ p {
     line-height: 1;
   }
 
-  .banner-btn {
-    font-size: .7em;
+  .banner-btn,
+  .white-btn {
+    font-size: .6em;
   }
+
 }
