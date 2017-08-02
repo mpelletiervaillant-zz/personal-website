@@ -28,16 +28,12 @@ body {
   background-color: #73C4C4;
 }
 
-img.logo {
-  width: 100px;
-  margin: .5em auto;
-  display: none;
+.logo {
+  background-color: #fff;
 }
 
-img.logo:hover {
-  opacity: .5;
-  transition: opacity .35s;
-  cursor: pointer;
+.logo-text {
+  color: #8DCCCC;
 }
 
 ul.nav {
@@ -85,35 +81,23 @@ nav li:hover {
   background-color: #ED5943;
 }
 
-.banner-med {
-  display: none;
-}
-
-.banner-large {
-  display: none;
-}
-
-.banner-xl {
-  display: none;
-}
-
 .banner-content {
   width: 90%;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
 
 h1 {
-  color: #fff;
+  color: #8DCCCC;
   font-size: 2rem;
   font-family: "Montserrat"
 }
 
 .banner-btn {
-  color: white;
+  color: #8DCCCC;
   text-decoration: none;
-  border: 2px solid white;
+  border: 2px solid #8DCCCC;
   padding: 1em 3em;
   font-size: .3rem;
 }
@@ -127,24 +111,25 @@ h1 {
 /*INTRODUCTION*/
 
 .add {
-  color: #ED5943;
+  color: #73C4C4;
 }
 
 .subtitle {
+  color: #8DCCCC;
   font-weight: 500;
   font-size: 1.7rem;
 }
 
 .intro-text {
   color: #2C2C2C;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .red-btn {
   font-size: .5rem;
   text-decoration: none;
-  color: #ED5943;
-  border: 2px #ED5943 solid;
+  color:  #73C4C4;
+  border: 2px  #73C4C4 solid;
   display: inline-block;
   padding: 1em 3em;
 }
@@ -171,7 +156,7 @@ section.services {
 }
 
 .services-icon {
-  max-width: 75px;
+  max-width: 200px;
   display: inline-block;
   margin: 0 auto;
 }
@@ -182,12 +167,12 @@ h3 {
 }
 
 .services-text {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   color: #fff;
 }
 
 .list-text {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   color: #fff;
   font-weight: 400;
 }
@@ -207,7 +192,7 @@ section.clients {
 /*PASSION PROJECTS*/
 
 .pp-text {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 /*CHAT*/
@@ -220,7 +205,7 @@ input,
 select,
 textarea,
 option {
-  border: 2px #ED5A44 solid;
+  border: 2px  #73C4C4 solid;
 }
 
 .send-btn {
@@ -254,19 +239,19 @@ p.copyright {
   background-color: #73C4C4;
 }
 
+  img.about-logo {
+  display: inline-block;
+  width: 100px;
+  margin: auto 0;
+}
+
+.about-text {
+  font-family: "Open Sans", sans-serif;
+}
+
 @media only screen and (min-width: 34em) {
 
-  .banner-small {
-    display: none;
-  }
 
-  .banner-med {
-    display: inline-block;
-  }
-
-  .banner-large {
-    display: none;
-  }
 
 @media only screen and (min-width: 38em) {
 
@@ -303,14 +288,6 @@ p.copyright {
 
   nav a:hover {
     color: #ED5943;
-  }
-
-  .banner-med {
-    display: none;
-  }
-
-  .banner-large {
-    display: inline-block;
   }
 
   /*PASSION PROJECT*/
@@ -378,23 +355,6 @@ p.copyright {
       font-size: 130%;
     }
 
-    .banner-large {
-      display: none;
-    }
-
-    .banner-xl {
-      display: inline-block;
-    }
-
-    .value-prop-large {
-      top: 17%;
-    }
-
-    .by-melany {
-      width: 18%;
-      bottom: 33%;
-    }
-
     .banner-btn {
       font-size: 1.5em;
       bottom: 20%;
@@ -457,8 +417,6 @@ ul.social-media {
 .btm-nav li {
   padding: 0 1em;
 }
-
-
 
 /*PORTFOLIO*/
 

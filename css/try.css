@@ -1,0 +1,99 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  font: normal 100%/1.5 "Montserrat", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: #8DCCCC;
+  padding: 1em 0;
+}
+
+ul.nav {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: none;
+}
+
+.nav-check:checked ~ ul.nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+  top: 1.3em;
+  left: .5em;
+}
+
+.nav-label img {
+  display: block;
+  width: 100%;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav li {
+  border-top: 1px solid white;
+  padding: .3em;
+  background-color: #8DCCCC;
+}
+
+nav li:hover {
+  cursor: pointer;
+  background-color: #ED5943;
+}
+
+.banner-content {
+  width: 90%;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+h2 {
+  color: #8DCCCC;
+  font-size: 1.8rem;
+}
+
+.banner-btn {
+  color: #8DCCCC;
+  text-decoration: none;
+  border: 2px solid #8DCCCC;
+  padding: 1em 3em;
+  font-size: .3rem;
+}
+
+.banner-btn:hover {
+  background-color: #8DCCCC;
+  color: #fff;
+  transition: background-color .35s, color .35s;
+}
