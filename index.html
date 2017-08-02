@@ -7,161 +7,179 @@
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <script src="myscripts.js"></script>
+  <link href="css/try.css" rel="stylesheet">
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
 </head>
 <body>
 
-  <header class="index-header grid grid-middle">
+  <header>
+    <h1 class="center-text push-0">Melany PV</h1>
+<div class="nav-group">
+    <nav class="">
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label" for="nav-check">
+        <img src="images/drop-down.svg" alt="Open Navigation">
+      </label>
 
-      <div class="logo unit xs-1 m-1-4">
-        <a href="index.html"><p class="logo-text push-2">Melany PV</p></a>
-      </div>
 
-      <nav class="unit xs-1 m-3-4">
-        <input type="checkbox" class="nav-check" id="nav-check">
-        <label class="nav-label" for="nav-check">
-          <img src="images/drop-down.svg" alt="Open Navigation">
-        </label>
-
-      <ul class="nav list-group micro">
+      <ul class="nav list-group">
         <li><a href="#">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
-        <li><a href="portfolio.html">PORTFOLIO</a></li>
-        <li><a href="#">SERVICES</a></li>
+        <li><a href="portfolio.html">SERVICES</a></li>
+        <li><a href="#">WORK</a></li>
         <li><a href="#">CONTACT</a></li>
       </ul>
     </nav>
+  </div>
   </header>
 
-  <section class="banner">
-    <div class="">
-    <img class="realtive img-flex banner-small" src="images/banner-small.jpg" alt="">
-
-  </div>
-
+  <section class="banner relative">
+    <img class="img-flex banner-small" src="images/banner-small.jpg">
+    <img class="img-flex banner-medium" src="images/image-banner.jpg">
+    <img class="img-flex banner-large" src="images/banner-large.jpg">
+    <img class="img-flex banner-extra-large" src="images/banner-extra-large.jpg">
     <div class="banner-content absolute text-center">
-      <h1 class="">LET'S MAKE SOMETHING MEMORABLE</h1>
-      <div class="">
-        <a class="banner-btn" href="#">LEARN HOW</a>
-      </div>
+      <h2>LET'S MAKE SOMETHING MEMORABLE</h2>
+      <a class="banner-btn" href="#">LEARN MORE</a>
     </div>
   </section>
 
-
-
-  <section class="introduction island center-text">
-    <div class="pad-t-2 pad-b-2">
-      <h2 class="subtitle">ABOUT ME</h2>
-      <p class="intro-text text-center max-length push milli">I am a graphic designer with a passion for letters! I taught myself brush letter over a year ago and now offer a range of services and products to share the beauty of handmade type with you!</p><a class="micro red-btn" href="">LEARN MORE</a>
-    </div>
-  </section>
-
-  <section class="services island center-text">
-    <div class="wrapper">
-    <h2 class="subtitle pad-t">SERVICES</h2>
-    <p class="services-text white max-length milli">Take a look of some of the services I offer. Don’t see what you are looking for? Send me a message and we can talk about your ideas!</p>
-
-    <div class="services-cards pad-b-2">
-      <div class="grid grid-middle">
-      <ul class="cards push-none list-group">
-
-        <li class="unit xs-1 s-1 m-1-3 l-1-3 grid grid-middle island">
-          <img class="services-icon unit xs-1 l-1 island-1-2" src="images/print-design-icon.svg" alt="">
-          <h3 class="unit xs-1 l-1 push-1-2">PRINT DESIGN</h3>
-          <p class="list-text max-length gutter-1-2 milli unit xs-1">I’m a Graphic Designer with an interest in lettering and typography. From custom lettering, to typographical layout.</p>
-        </li>
-
-        <li class="unit xs-1 s-1 m-1-3 l-1-3grid grid-middle">
-          <img class="services-icon unit xs-1 l-1 island-1-2" src="images/icon-brush.svg" alt="">
-          <h3 class="unit xs-1 l-1 push-1-2">HAND-LETTERING</h3>
-          <p class="list-text milli gutter-1-2  unit xs-1">I’m a Graphic Designer with an interest in lettering and typography. From custom lettering, to typographical layout.</p>
-        </li>
-
-        <li class="unit xs-1 s-1 m-1-3 l-1-3 grid grid-middle">
-          <img class="services-icon unit xs-1 l-1 island-1-2" src="images/icon-brush.svg" alt="">
-          <h3 class="unit xs-1 l-1 push-1-2">WEB DESIGN</h3>
-          <p class="list-text milli gutter-1-2  unit xs-1">I’m a Graphic Designer with an interest in lettering and typography. From custom lettering, to typographical layout.</p>
-        </li>
-      </ul>
-    </div>
-    </div>
+<section class="introduction center-text island">
+  <div class="pad-t-2 pad-b-2">
+    <h2 class="blue">ABOUT ME</h2>
+    <p class="max-length push milli">I am a graphic designer with a passion for letters! I taught myself brush letter over a year ago and now offer a range of services and products to share the beauty of handmade type with you!</p><a class="banner-btn micro" href="">LEARN MORE</a>
   </div>
-  </section>
+</section>
 
-  <section class="projects island center-text wrapper">
-    <div class="pad-t-2 pad-b-2">
-    <small class="add micro">MY FAVOURITE</small>
-    <h2 class="subtitle push">PROJECTS</h2>
+<section class="services center-text island">
+  <div class="pad-b-2 pad-t-2 wrapper">
+  <h2 class="white">SERVICES</h2>
 
-      <div class="grid push-2">
-        <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3">
-          <a href="#"><img class="img-flex island-1-4 portfolio-hover" src="images/card-front.jpg" alt=""></a>
-        </div>
-
-        <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3">
-          <a href="#"><img class="img-flex island-1-4 portfolio-hover" src="portfolio/death's-messenger-portfolio.jpg" alt=""></a>
-        </div>
-
-        <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3">
-          <a href="#"><img class="img-flex island-1-4 portfolio-hover" src="portfolio/menu-portfolio.jpg" alt=""></a>
-        </div>
-
-        <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3">
-          <a href="#"><img class="img-flex island-1-4 portfolio-hover" src="portfolio/merry-christmas-portfolio.jpg" alt=""></a>
-        </div>
-
-        <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3">
-          <a href="#"><img class="img-flex island-1-4 portfolio-hover" src="images/print-front.jpg" alt=""></a>
-        </div>
-
-        <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3">
-          <a href="#"><img class="img-flex island-1-4 portfolio-hover" src="portfolio/january-portfolio.jpg" alt=""></a>
-        </div>
-      </div>
-      <div class="pad-t">
-        <a class="micro red-btn" href="">LEARN MORE</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="clients island center-text">
-    <small class="add micro">MY AMAZING</small>
-    <h2 class="subtitle">CLIENTS</h2>
-  </section>
-
-  <section class="passion-projects island center-text wrapper">
-    <div class="pad-b-2 pad-t-2">
     <div class="grid grid-middle">
+    <ul class="push-none list-group">
 
-      <div class="unit xs-1 s-1 m-1-2 pp-div">
-        <h2 class="subtitle push-1-2">PASSION PROJECTS</h2>
-        <p class="pp-text max-length push">I believe that Passion Projects are super important to keeping the creative juices flowing. Check out my current project: Star Wars Icons!</p>
-
-        <div class="">
-          <a class="red-btn micro" href="">VIEW MORE</a>
+      <li class="unit xs-1 s-1 m-1-3 l-1-3 grid grid-middle island">
+        <img class="services-icon unit xs-1 l-1 island-1-2" src="images/icon-brush.svg" alt="">
+        <h3 class="unit xs-1 l-1 push-1-2 white giga">PRINT DESIGN</h3>
+        <p class="list-text max-length gutter-1-2 milli unit xs-1">I’m a Graphic Designer with an interest in lettering and typography. From custom lettering, to typographical layout.</p>
+        <div class="pad-b-2">
+          <a class="white-btn" href="#">LAERN MORE</a>
         </div>
+      </li>
+
+      <li class="unit xs-1 s-1 m-1-3 l-1-3grid grid-middle">
+        <img class="services-icon unit xs-1 l-1 island-1-2" src="images/icon-brush.svg" alt="">
+        <h3 class="unit xs-1 l-1 push-1-2 white giga">HAND-LETTERING</h3>
+        <p class="list-text milli gutter-1-2  unit xs-1">I’m a Graphic Designer with an interest in lettering and typography. From custom lettering, to typographical layout.</p>
+        <div class="pad-b-2">
+          <a class="white-btn" href="#">LAERN MORE</a>
+        </div>
+      </li>
+
+      <li class="unit xs-1 s-1 m-1-3 l-1-3 grid grid-middle">
+        <img class="services-icon unit xs-1 l-1 island-1-2" src="images/icon-brush.svg" alt="">
+        <h3 class="unit xs-1 l-1 push-1-2 white giga">WEB DESIGN</h3>
+        <p class="list-text milli gutter-1-2  unit xs-1">I’m a Graphic Designer with an interest in lettering and typography. From custom lettering, to typographical layout.</p>
+        <div class="pad-b-2">
+          <a class="white-btn" href="#">LAERN MORE</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  </div>
+</div>
+</section>
+
+<section class="projects center-text island wrapper">
+  <div class="pad-t-2 pad-b-2">
+      <h2 class="blue">PROJECTS</h2>
+
+    <div class="grid push-2">
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3">
+        <a href="#"><img class="img-flex island-1-4 portfolio-hover" src="images/card-front.jpg" alt=""></a>
       </div>
 
-      <div class="unit xs-1 s-1 m-1-2 push">
-        <img class="img-flex gutter" src="images/star-wars-icons.svg" alt="">
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3">
+        <a href="#"><img class="img-flex island-1-4 portfolio-hover" src="portfolio/death's-messenger-portfolio.jpg" alt=""></a>
+      </div>
+
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3">
+        <a href="#"><img class="img-flex island-1-4 portfolio-hover" src="portfolio/menu-portfolio.jpg" alt=""></a>
+      </div>
+
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3">
+        <a href="#"><img class="img-flex island-1-4 portfolio-hover" src="portfolio/merry-christmas-portfolio.jpg" alt=""></a>
+      </div>
+
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3">
+        <a href="#"><img class="img-flex island-1-4 portfolio-hover" src="images/print-front.jpg" alt=""></a>
+      </div>
+
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3">
+        <a href="#"><img class="img-flex island-1-4 portfolio-hover" src="portfolio/january-portfolio.jpg" alt=""></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="weddings">
+    <div class="pad-t-2 pad-b-2">
+    <div class="wrapper">
+    <div class="grid grid-middle">
+      <div class="island unit xs-1 s-1 m-1-2">
+        <h2 class="white">WEDDINGS</h2>
+        <p class="white">I believe that Passion Projects are super important to keeping the creative juices flowing. Check out my current project: Star Wars Icons!</p>
+          <div class="">
+            <a class="white-btn" href="#">LAERN MORE</a>
+          </div>
+      </div>
+      <div class="unit xs-1 s-1 m-1-2">
+        <img class="img-flex" src="images/wedding-calligraphy.jpg" alt="">
       </div>
     </div>
   </div>
+</div>
+  </section>
+
+  <section class="shop island wrapper">
+    <div class="pad-t-2 pad-b-2">
+    <div class="grid grid-middle">
+      <div class="unit xs-1 s-1 m-1-2">
+        <img class="img-flex shop-img island" src="images/card-front.jpg" alt="">
+      </div>
+      <div class="unit xs-1 s-1 m-1-2">
+        <h2 class="blue">SHOP</h2>
+        <p class="blue">I believe that Passion Projects are super important to keeping the creative juices flowing. Check out my current project: Star Wars Icons!</p>
+        <a class="banner-btn" href="#">SHOP NOW</a>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="passion-projects island">
+    <div class="wrapper">
+      <div class="grid grid-middle">
+        <div class="unit xs-1 s-1 m-1-2 pad-t-2 pad-b-2">
+          <h2 class="white">PASSION PROJECTS</h2>
+          <p class="white">I believe that Passion Projects are super important to keeping the creative juices flowing. Check out my current project: Star Wars Icons!</p>
+            <div class="push">
+              <a class="white-btn" href="#">LAERN MORE</a>
+            </div>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2">
+          <img class="img-flex island" src="images/star-wars-icons.svg" alt="">
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="chat island text-center">
-    <div class="pad-t-2">
-      <small class="add micro center-text">HAVE AN IDEA?</small>
-    </div>
-    <h2 class="subtitle push center-text">LET'S CHAT</h2>
+    <div class="pad-t-2 pad-b-2">
+    <h2 class="push center-text blue">LET'S CHAT</h2>
 
-      <form class="push island-1-2 wrapper" method="POST">
+      <form class="island-1-2 wrapper" method="POST">
 
         <div class="push one two text-left">
           <label for="name">Name</label>
@@ -174,17 +192,18 @@
         </div>
 
         <div class="push text-left">
-          <label for="details">What's up?</label>
+          <label for="details">Message</label>
           <textarea id="details" name="message"></textarea>
         </div>
 
-        <button class="red-btn send-btn micro" type="submit">SEND MESSAGE</button>
+        <button class="send-btn" type="submit">SEND MESSAGE</button>
+      </div>
   </section>
 
   <footer class="">
     <div class="grid grid-middle text-center">
 
-      <div class="unit xs-1 s-1 m-1-2">
+      <div class="unit xs-1 s-1 m-1-3">
 
           <a href="https://www.behance.net/pell02274193"><img class="sm-icon gutter-1-2" src="images/sm-1.svg" alt=""></a>
 
@@ -196,9 +215,12 @@
 
       </div>
 
+    <div class="unit xs-1 s-1 m-1-3">
+      <p class="copyright text-center milli push-0"><small class="milli">© 2017 Melany PV</small></p>
+    </div>
 
-    <div class="unit xs-1 s-1 m-1-2">
-      <p class="copyright text-center mili push-0"><small class="milli">© 2017 Melany PV</small></p>
+    <div class="unit xs-1 s-1 m-1-3">
+      <a class="french-btn white milli" href="index-french.html">Version Francaise</a>
     </div>
   </div>
 </footer>
