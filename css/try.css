@@ -31,6 +31,10 @@ body {
   display: none;
 }
 
+.banner-extra-large {
+  display: none;
+}
+
 h1 {
   color: #8DCCCC;
   padding: 1em 0;
@@ -83,7 +87,7 @@ nav li {
 
 nav li:hover {
   cursor: pointer;
-  background-color: #ED5943;
+  background-color: #3E3E3E;
 }
 
 /*Banner*/
@@ -163,10 +167,6 @@ section.weddings {
   transition: background-color .35s, color .35s;
 }
 
-.test {
-  padding: 2em 0;
-}
-
 section.passion-projects {
   background-color: #8DCCCC;
 }
@@ -180,6 +180,11 @@ select,
 textarea,
 option {
   border: 1px  #8DCCCC solid;
+}
+
+label {
+  color: #8DCCCC;
+  font-size: .8em;
 }
 
 .send-btn {
@@ -211,6 +216,7 @@ img.sm-icon:hover {
 p.copyright {
   color: white;
   margin: 1em 0;
+  font-family: "Poppins";
 }
 
 .french-btn {
@@ -257,8 +263,8 @@ p {
 
   nav {
     text-align: center;
-    border-top: .5px solid #3E3E3E;
-    border-bottom: .5px solid #3E3E3E;
+    border-top: .5px solid #CCC;
+    border-bottom: .5px solid #CCC;
   }
 
   ul.nav {
@@ -329,6 +335,10 @@ p {
   }
 
   .banner-large {
+    display: none;
+  }
+
+  .banner-extra-large {
     display: inline;
   }
 
