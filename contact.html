@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Mélany PV</title>
+  <title>Mélany PV - Contact</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -30,30 +30,36 @@
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="portfolio.html">SERVICES</a></li>
         <li><a href="work.html">WORK</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="#">CONTACT</a></li>
       </ul>
     </nav>
   </div>
   </header>
 
-  <section class="about-me island wrapper push-2">
-    <div class="grid grid-middle pad-t-2">
-      <div class="unit xs-1 s-1 m-1-2 l-1-2"
-        <small class="add micro">HEY THERE, I'M</small>
-        <h2 class="subtitle">MELANY</h2>
-        <p class="about-text">I’m a Graphic Designer with an interest in lettering and typography. From custom lettering, to typographical layout.</p>
+  <section class="chat island text-center">
+    <div class="pad-t-2 pad-b-2">
+      <h2 class="blue push-0">SEND ME A MESSAGE</h2>
+    <p class="push center-text max-length">Have an idea in mind? Send me a message and I'll get back to you as soon as possible! I look forward to working with you.</p>
 
-        <p class="about-text">I am currently attending Algonquin College for Graphic Design. I’ve worked on many projects, such as menus for restaurants, Wedding Invitations and more. I also keep myself busy with Passion Projects on the side.</p>
+      <form class="island-1-2 wrapper" method="POST">
 
-        <p class="about-text">I’d  love to hear about your ideas and projects, feel free to send me a message!</p>
-        <div class="">
-          <a class="micro red-btn" href="">GET IN TOUCH</a>
+        <div class="push one two text-left">
+          <label for="name">Name</label>
+          <input id="name" name="name">
         </div>
+
+        <div class="push one text-left">
+          <label for="email">E-mail</label>
+          <input id="email" type="email" name="email">
+        </div>
+
+        <div class="push text-left">
+          <label for="details">Message</label>
+          <textarea id="details" name="message"></textarea>
+        </div>
+
+        <button class="send-btn" type="submit">SEND MESSAGE</button>
       </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <img class="img-flex island" src="images/print-front.jpg" alt="">
-      </div>
-    </div>
   </section>
 
   <footer class="">
@@ -79,7 +85,7 @@
       <a class="french-btn white milli" href="index-french.html">Version Francaise</a>
     </div>
   </div>
-</footer>
+  </footer>
 
-</body>
-</html>
+  </body>
+  </html>
