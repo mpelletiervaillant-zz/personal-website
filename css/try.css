@@ -21,6 +21,18 @@ body {
   margin: 0;
 }
 
+p {
+  font-family: "Lato", sans-serif;
+}
+
+.white {
+  color: #fff;
+}
+
+.blue {
+  color: #8DCCCC;
+}
+
 /*Header*/
 
 .banner-medium {
@@ -108,8 +120,8 @@ nav li:hover {
   color: #8DCCCC;
   text-decoration: none;
   border: 2px solid #8DCCCC;
-  padding: 1em 3em;
-  font-size: .3rem;
+  padding: .7em 1.9em;
+  font-size: .7rem;
 }
 
 .banner-btn:hover {
@@ -142,10 +154,32 @@ section.services {
 
 /*Portfolio*/
 
-.portfolio-hover:hover {
-  opacity: .5;
-  transition: opacity .5s;
+.img-wrap {
+  position: relative;
 }
+
+.img-description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 95%;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility, .2s;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 1em;
+}
+
+.img-wrap:hover .img-description {
+    visibility: visible;
+    opacity: 1;
+}
+
 
 /*Weddings*/
 
@@ -157,13 +191,13 @@ section.weddings {
   color: #FFF;
   text-decoration: none;
   border: 2px solid #FFF;
-  padding: 1em 3em;
-  font-size: .3rem;
+  padding: .7em 1.9em;
+  font-size: .7rem;
 }
 
 .white-btn:hover {
-  background-color: #8DCCCC;
-  color: #fff;
+  background-color: #FFF;
+  color: #8DCCCC;
   transition: background-color .35s, color .35s;
 }
 
@@ -223,21 +257,12 @@ p.copyright {
   text-decoration: none;
 }
 
-/*----------WORK PAGE-----------*//
+/*----------WORK PAGE-----------*/
 
-
-
-p {
-  font-family: "Lato", sans-serif;
-}
-
-.white {
-  color: #fff;
-}
-
-.blue {
-  color: #8DCCCC;
-}
+/*----------NEWSLETTER-----------*/
+  .next-btn {
+    text-align: left;
+  }
 
 @media only screen and (min-width: 38em) {
 
@@ -297,7 +322,7 @@ p {
   }
 
   nav a:hover {
-    color: #ED5943;
+    color: #8DCCCC;
   }
 
   .shop-img {
@@ -357,7 +382,8 @@ p {
 
   .banner-btn,
   .white-btn {
-    font-size: .6em;
+    padding: .7em 1.5em;
+    font-size: .7rem;
   }
 
 }
