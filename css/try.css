@@ -257,6 +257,11 @@ p.copyright {
   text-decoration: none;
 }
 
+/*----------SERVICES-----------*/
+.lettering {
+  background-color: #8DCCCC;
+}
+
 /*----------WORK PAGE-----------*/
 
 /*----------NEWSLETTER-----------*/
@@ -349,6 +354,10 @@ p.copyright {
 
   .btm-nav a {
     font-size: 1em;
+  }
+
+  img.sm-icon {
+    width: 65px;
   }
 }
 
