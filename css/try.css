@@ -262,6 +262,12 @@ p.copyright {
   background-color: #8DCCCC;
 }
 
+h3,
+h4 {
+  font-weight: 500;
+}
+
+
 /*----------WORK PAGE-----------*/
 
 /*----------NEWSLETTER-----------*/
@@ -363,7 +369,7 @@ figcaption {
   }
 
   img.sm-icon {
-    width: 65px;
+    width: 50px;
   }
 }
 
@@ -401,4 +407,7 @@ figcaption {
     font-size: .7rem;
   }
 
+  img.sm-icon {
+    width: 60px;
+  }
 }
