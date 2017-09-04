@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.5 "Futura pt", sans-serif;
+  font: normal 100%/1.5 "Brandon Grotesque", sans-serif;
 }
 
 *, *::before, *::after {
@@ -91,7 +91,7 @@ nav li:hover {
 h1 {
   color: #8DCCCC;
   font-size: 2rem;
-  font-family: "Montserrat"
+  font-family: "Brandon Grotesque";
 }
 
 .banner-btn {
