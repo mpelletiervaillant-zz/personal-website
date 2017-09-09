@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.5 "Poppins", sans-serif;
+  font: normal 100%/1.5 "brandon-grotesque", sans-serif;
 }
 
 *, *::before, *::after {
@@ -47,13 +47,15 @@ p {
   display: none;
 }
 
-h1 {
-  color: #8DCCCC;
-  padding: 1em 0;
+.logo {
+  width: 200px;
+  margin: 0 auto;
 }
 
-h2 {
-  font-weight: 600;
+.logo:hover {
+  cursor: pointer;
+  opacity: .5;
+  transition: opacity .35s;
 }
 
 ul.nav {
@@ -119,7 +121,7 @@ nav li:hover {
 .banner-btn {
   color: #8DCCCC;
   text-decoration: none;
-  border: 2px solid #8DCCCC;
+  border: 1px solid #8DCCCC;
   padding: .7em 1.9em;
   font-size: .7rem;
 }
@@ -131,28 +133,50 @@ nav li:hover {
 }
 /*Introduction*/
 
+.introduction h2 {
+  font-size: 1.5em;
+}
+
+.introduction p {
+  font-weight: 400;
+  font-family:'Lato';
+  font-size: .9em;
+}
+
 /*Services*/
 
 section.services {
-  background-color: #8DCCCC;
+  background-color: #eeedee;
+}
+
+.services h2 {
+  font-size: 1.5em;
 }
 
 .services-icon {
   max-width: 100px;
+  max-height: 100px;
   display: inline-block;
   margin: 0 auto;
 }
 
 .services h3 {
   font-weight: 500;
+  color: #424242;
 }
 
 .list-text {
-  color: #fff;
+  color: #424242;
   font-weight: 400;
+  font-family:'Lato';
+  font-size: .9em;
 }
 
-/*Portfolio*/
+/*Projects*/
+
+.projects h2 {
+  font-size: 1.5em;
+}
 
 .img-wrap {
   position: relative;
@@ -180,17 +204,40 @@ section.services {
     opacity: 1;
 }
 
-
 /*Weddings*/
+.weddings h2 {
+  font-size: 1.5em;
+}
 
-section.weddings {
-  background-color: #8DCCCC;
+.wedding-content {
+  width: 95%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.wedding-banner-large {
+  display: none;
+}
+
+.weddings p {
+  font-weight: 400;
+  font-size: .9em;
+  color: #434343;
 }
 
 .white-btn {
   color: #FFF;
   text-decoration: none;
-  border: 2px solid #FFF;
+  border: 1px solid #FFF;
+  padding: .7em 1.9em;
+  font-size: .7rem;
+}
+
+.black-btn {
+  color: #434343;
+  text-decoration: none;
+  border: 1px solid #434343;
   padding: .7em 1.9em;
   font-size: .7rem;
 }
@@ -201,13 +248,30 @@ section.weddings {
   transition: background-color .35s, color .35s;
 }
 
+/*PASSION PROJECTS*/
+
 section.passion-projects {
   background-color: #8DCCCC;
+}
+
+/*SHOP*/
+
+.shop h2 {
+  font-size: 1.5em;
+}
+
+.shop p {
+  font-weight: 400;
+  font-family:'PT Serif';
+  font-size: .9em;
+  color: #434343;
 }
 
 .shop-img {
   display: none;
 }
+
+/*CONTACT*/
 
 input,
 select,
@@ -224,10 +288,16 @@ label {
 .send-btn {
   color: #8DCCCC;
   text-decoration: none;
-  border: 2px solid #8DCCCC;
-  padding: 1em 3em;
-  font-size: .3rem;
+  border: 1px solid #8DCCCC;
+  padding: .7em 1.5em;
+  font-size: .7rem;
   background-color: #fff;
+}
+
+.send-btn:hover {
+  color: #fff;
+  background-color: #8DCCCC;
+  transition: background-color .35s, color .35s;
 }
 
 /*Footer*/
@@ -235,7 +305,11 @@ label {
 footer {
   background-color: #73C4C4;
   text-align: center;
-  padding: 2em 0;
+}
+
+.established {
+  font-family: 'brandon-grotesque';
+  line-height: 1.2;
 }
 
 img.sm-icon {
@@ -249,8 +323,6 @@ img.sm-icon:hover {
 
 p.copyright {
   color: white;
-  margin: 1em 0;
-  font-family: "Poppins";
 }
 
 .french-btn {
@@ -282,6 +354,10 @@ figcaption {
 }
 
 @media only screen and (min-width: 38em) {
+
+  .logo {
+    width: 250px;
+  }
 
   .banner-small {
     display: none;
@@ -342,8 +418,21 @@ figcaption {
     color: #8DCCCC;
   }
 
+  .wedding-banner-small {
+    display: none;
+  }
+
+  .wedding-banner-large {
+    display: block;
+  }
+
+  .wedding-content {
+    width: 50%;
+  }
+
   .shop-img {
     display: inline-block;
+    max-width: 350px;
   }
 
   .one {
@@ -405,6 +494,10 @@ figcaption {
   .white-btn {
     padding: .7em 1.5em;
     font-size: .7rem;
+  }
+
+  .black {
+    color: #434343;
   }
 
   img.sm-icon {

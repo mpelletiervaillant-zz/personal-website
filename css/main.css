@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.5 "Brandon Grotesque", sans-serif;
+  font: normal 100%/1.5 'brandon-grotesque', sans-serif;
 }
 
 *, *::before, *::after {
@@ -91,7 +91,7 @@ nav li:hover {
 h1 {
   color: #8DCCCC;
   font-size: 2rem;
-  font-family: "Brandon Grotesque";
+  font-family: 'brandon-grotesque';
 }
 
 .banner-btn {
@@ -122,7 +122,7 @@ h1 {
 
 .intro-text {
   color: #2C2C2C;
-  font-family: 'Lato', sans-serif;
+  font-family: 'brandon-grotesque', sans-serif;
 }
 
 .red-btn {
