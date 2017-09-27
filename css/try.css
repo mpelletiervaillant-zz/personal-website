@@ -146,7 +146,7 @@ nav li:hover {
 /*Services*/
 
 section.services {
-  background-color: #eeedee;
+  background-color: #8dcccc;
 }
 
 .services h2 {
@@ -162,11 +162,9 @@ section.services {
 
 .services h3 {
   font-weight: 500;
-  color: #424242;
 }
 
 .list-text {
-  color: #424242;
   font-weight: 400;
   font-family:'Lato';
   font-size: .9em;
@@ -262,7 +260,6 @@ section.passion-projects {
 
 .shop p {
   font-weight: 400;
-  font-family:'PT Serif';
   font-size: .9em;
   color: #434343;
 }
@@ -283,6 +280,7 @@ option {
 label {
   color: #8DCCCC;
   font-size: .8em;
+  font-family: "Lato", sans-serif;
 }
 
 .send-btn {
@@ -303,13 +301,9 @@ label {
 /*Footer*/
 
 footer {
+  padding: 2em 0;
   background-color: #73C4C4;
   text-align: center;
-}
-
-.established {
-  font-family: 'brandon-grotesque';
-  line-height: 1.2;
 }
 
 img.sm-icon {
@@ -327,6 +321,12 @@ p.copyright {
 
 .french-btn {
   text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+.french-btn:hover {
+  opacity: .5;
+  transition: opacity .35s;
 }
 
 /*----------SERVICES-----------*/
@@ -443,6 +443,10 @@ figcaption {
 
   .two {
     padding-right: 1em;
+  }
+
+  .copyright {
+    margin-bottom: 0;
   }
 
   .social-media li {
