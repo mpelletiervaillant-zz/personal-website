@@ -240,6 +240,12 @@ section.services {
   font-size: .7rem;
 }
 
+.black-btn:hover {
+  color: #fff;
+  background-color: #434343;
+  transition: background-color .35s, color .35s;
+}
+
 .white-btn:hover {
   background-color: #FFF;
   color: #8DCCCC;
@@ -330,9 +336,6 @@ p.copyright {
 }
 
 /*----------SERVICES-----------*/
-.lettering {
-  background-color: #8DCCCC;
-}
 
 h3,
 h4 {
