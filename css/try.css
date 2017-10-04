@@ -186,12 +186,11 @@ section.services {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 95%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(123, 196, 196, 0.9);
   color: #fff;
   visibility: hidden;
   opacity: 0;
   transition: opacity .2s, visibility, .2s;
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
   cursor: pointer;
   padding: 1em;
@@ -359,6 +358,12 @@ figcaption {
   text-align: left;
 }
 
+/*----------PASSION PROJECT PAGE-----------*/
+.icons-diagram {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 38em) {
 
   .logo {
@@ -438,7 +443,7 @@ figcaption {
 
   .shop-img {
     display: inline-block;
-    max-width: 350px;
+    max-width: 500px;
   }
 
   .one {
