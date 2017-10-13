@@ -54,8 +54,7 @@ p {
 
 .logo:hover {
   cursor: pointer;
-  opacity: .5;
-  transition: opacity .35s;
+  transform: scale(1.1);
 }
 
 ul.nav {
@@ -201,6 +200,10 @@ section.services {
     opacity: 1;
 }
 
+.img-wrap:hover {
+  transform: scale(1.05);
+}
+
 /*Weddings*/
 .weddings h2 {
   font-size: 1.5em;
@@ -316,8 +319,7 @@ img.sm-icon {
 }
 
 img.sm-icon:hover {
-  opacity: .5;
-  transition: opacity .35s;
+  transform: scale(1.2);
 }
 
 p.copyright {
@@ -349,13 +351,51 @@ h4 {
 
 /*----------NEWSLETTER-----------*/
 
+.border-left {
+  border-left: 1px solid #ccc;
+}
+
+.border-newsletter {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.newsletter-red {
+  color: #c64a2e;
+}
+
+.details {
+  font-style: italic;
+}
+
+.newsletter-info {
+  border-right: 1px solid #ccc;
+}
+
+.title {
+  border-bottom: 1px solid #ccc;
+}
 figcaption {
   font-style: italic;
   font-family: "Lato", sans-serif;
 }
 
-.next-btn {
-  text-align: left;
+.newsletter-footer {
+  background-color: #c64a2e;
+}
+
+.work-btn-red {
+  text-decoration: none;
+  color: #c64a2e;
+  border: 1px solid #c64a2e;
+  font-size: .7rem;
+  min-width: 127px;
+}
+
+.work-btn-red:hover {
+  background-color: #c64a2e;
+  color: #fff;
+  transition: background-color .5s;
 }
 
 /*----------PASSION PROJECT PAGE-----------*/
@@ -518,4 +558,9 @@ figcaption {
   img.sm-icon {
     width: 60px;
   }
-}
+
+/*------------NEWSLETER----------------*/
+
+  .work-btn {
+    min-width: 156px;
+  }
