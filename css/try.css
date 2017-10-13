@@ -384,16 +384,32 @@ figcaption {
   background-color: #c64a2e;
 }
 
-.work-btn-red {
+.work-btn {
   text-decoration: none;
-  color: #c64a2e;
-  border: 1px solid #c64a2e;
   font-size: .7rem;
   min-width: 127px;
 }
 
+.work-btn-red {
+  color: #c64a2e;
+  border: 1px solid #c64a2e;
+}
+
 .work-btn-red:hover {
   background-color: #c64a2e;
+  color: #fff;
+  transition: background-color .5s;
+}
+
+/*----------LETTERING-----------*/
+
+.work-btn-blue {
+  color: #8dcccc;
+  border: 1px solid #8dcccc;
+}
+
+.work-btn-blue:hover {
+  background-color: #8dcccc;
   color: #fff;
   transition: background-color .5s;
 }
@@ -514,6 +530,12 @@ figcaption {
 
   img.sm-icon {
     width: 50px;
+  }
+
+  /*-------------------NEWSLETTER----------*/
+
+  .newsletter-info {
+    text-align: right;
   }
 }
 
