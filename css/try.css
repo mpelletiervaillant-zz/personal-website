@@ -25,27 +25,7 @@ p {
   font-family: "Lato", sans-serif;
 }
 
-.white {
-  color: #fff;
-}
-
-.blue {
-  color: #8DCCCC;
-}
-
 /*Header*/
-
-.banner-medium {
-  display: none;
-}
-
-.banner-large {
-  display: none;
-}
-
-.banner-extra-large {
-  display: none;
-}
 
 .logo {
   width: 200px;
@@ -73,18 +53,19 @@ ul.nav {
   display: inline-block;
   width: 40px;
   position: absolute;
-  top: 1.3em;
+  top: 1.7em;
   left: .5em;
 }
 
 .nav-label img {
   display: block;
   width: 100%;
+
 }
 
 .nav-check {
   position: absolute;
-  top: -3em;
+  top: -43em;
 }
 
 nav a {
@@ -105,6 +86,11 @@ nav li:hover {
 
 /*Banner*/
 
+.banner {
+  background: url("../images/banner-front.jpg") 70% center / cover no-repeat;
+  height: 500px;
+}
+
 .banner-content {
   width: 90%;
   top: 45%;
@@ -117,19 +103,6 @@ nav li:hover {
   font-size: 1.8rem;
 }
 
-.banner-btn {
-  color: #8DCCCC;
-  text-decoration: none;
-  border: 1px solid #8DCCCC;
-  padding: .7em 1.9em;
-  font-size: .7rem;
-}
-
-.banner-btn:hover {
-  background-color: #8DCCCC;
-  color: #fff;
-  transition: background-color .35s, color .35s;
-}
 /*Introduction*/
 
 .introduction h2 {
@@ -209,6 +182,11 @@ section.services {
   font-size: 1.5em;
 }
 
+.wedding-banner {
+  background: url("../images/wedding-banner.jpg") 70% center / cover no-repeat;
+  height: 400px;
+}
+
 .wedding-content {
   width: 95%;
   top: 50%;
@@ -224,34 +202,6 @@ section.services {
   font-weight: 400;
   font-size: .9em;
   color: #434343;
-}
-
-.white-btn {
-  color: #FFF;
-  text-decoration: none;
-  border: 1px solid #FFF;
-  padding: .7em 1.9em;
-  font-size: .7rem;
-}
-
-.black-btn {
-  color: #434343;
-  text-decoration: none;
-  border: 1px solid #434343;
-  padding: .7em 1.9em;
-  font-size: .7rem;
-}
-
-.black-btn:hover {
-  color: #fff;
-  background-color: #434343;
-  transition: background-color .35s, color .35s;
-}
-
-.white-btn:hover {
-  background-color: #FFF;
-  color: #8DCCCC;
-  transition: background-color .35s, color .35s;
 }
 
 /*PASSION PROJECTS*/
@@ -291,21 +241,6 @@ label {
   font-family: "Lato", sans-serif;
 }
 
-.send-btn {
-  color: #8DCCCC;
-  text-decoration: none;
-  border: 1px solid #8DCCCC;
-  padding: .7em 1.5em;
-  font-size: .7rem;
-  background-color: #fff;
-}
-
-.send-btn:hover {
-  color: #fff;
-  background-color: #8DCCCC;
-  transition: background-color .35s, color .35s;
-}
-
 /*Footer*/
 
 footer {
@@ -324,16 +259,6 @@ img.sm-icon:hover {
 
 p.copyright {
   color: white;
-}
-
-.french-btn {
-  text-decoration: none;
-  font-family: "Lato", sans-serif;
-}
-
-.french-btn:hover {
-  opacity: .5;
-  transition: opacity .35s;
 }
 
 /*----------SERVICES-----------*/
@@ -384,35 +309,9 @@ figcaption {
   background-color: #c64a2e;
 }
 
-.work-btn {
-  text-decoration: none;
-  font-size: .7rem;
-  min-width: 127px;
-}
-
-.work-btn-red {
-  color: #c64a2e;
-  border: 1px solid #c64a2e;
-}
-
-.work-btn-red:hover {
-  background-color: #c64a2e;
-  color: #fff;
-  transition: background-color .5s;
-}
-
 /*----------LETTERING-----------*/
 
-.work-btn-blue {
-  color: #8dcccc;
-  border: 1px solid #8dcccc;
-}
 
-.work-btn-blue:hover {
-  background-color: #8dcccc;
-  color: #fff;
-  transition: background-color .5s;
-}
 
 /*----------PASSION PROJECT PAGE-----------*/
 .icons-diagram {
@@ -424,18 +323,6 @@ figcaption {
 
   .logo {
     width: 250px;
-  }
-
-  .banner-small {
-    display: none;
-  }
-
-  .banner-medium {
-    display: inline;
-  }
-
-  .banner-large {
-    display: none;
   }
 
   .banner-content {
@@ -483,14 +370,6 @@ figcaption {
 
   nav a:hover {
     color: #8DCCCC;
-  }
-
-  .wedding-banner-small {
-    display: none;
-  }
-
-  .wedding-banner-large {
-    display: block;
   }
 
   .wedding-content {
@@ -546,18 +425,6 @@ figcaption {
     font-size: 120%;
   }
 
-  .banner-medium {
-    display: none;
-  }
-
-  .banner-large {
-    display: none;
-  }
-
-  .banner-extra-large {
-    display: inline;
-  }
-
   .banner-content {
     width: 65%;
   }
@@ -567,22 +434,8 @@ figcaption {
     line-height: 1;
   }
 
-  .banner-btn,
-  .white-btn {
-    padding: .7em 1.5em;
-    font-size: .7rem;
-  }
-
-  .black {
-    color: #434343;
-  }
-
   img.sm-icon {
     width: 60px;
   }
 
 /*------------NEWSLETER----------------*/
-
-  .work-btn {
-    min-width: 156px;
-  }
