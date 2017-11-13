@@ -34,7 +34,7 @@ p {
 
 .logo:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 ul.nav {
@@ -101,6 +101,11 @@ nav li:hover {
 .banner h2 {
   color: #8DCCCC;
   font-size: 1.8rem;
+}
+
+.christmas-cards {
+  max-width: 576px;
+  display: inline-block;
 }
 
 /*Introduction*/
@@ -261,6 +266,16 @@ p.copyright {
   color: white;
 }
 
+/*----------CHRISTMAS CARDS-----------*/
+
+.christmas-cards {
+  width: 300px;
+}
+
+.christmas-cards-footer {
+  background-color: red;
+}
+
 /*----------SERVICES-----------*/
 
 h3,
@@ -315,7 +330,13 @@ figcaption {
 
 /*----------PASSION PROJECT PAGE-----------*/
 .icons-diagram {
-  max-width: 500px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.star-wars-stickers {
+  width: 400px;
+  text-align: center;
   margin: 0 auto;
 }
 
