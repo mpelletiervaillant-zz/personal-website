@@ -1,0 +1,173 @@
+:root {
+  --color-primary: #13d0ba;
+  --color-secondary: #383838;
+  --color-secondary-light: #626262;
+  --color-light-background: #f7f7f7;
+  --color-border: #95989a;
+  --font-primary: "Open Sans", arial, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+  font-weight: 300;
+}
+
+.white {
+  color: #fff;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+strong {
+  color: var(--color-primary);
+}
+
+.my-max-length {
+  max-width: 25em;
+  margin: 0 auto;
+}
+
+.border {
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+/* BUTTONS */
+
+.btn {
+  border: 1px solid var(--color-primary);
+  font-weight: 400;
+  color: white;
+  padding: .5em 1.7em;
+  transition: all .3s ease-in-out;
+  font-size: .7rem;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+}
+
+.ghost-btn {
+  color: var(--color-primary);
+}
+
+.ghost-btn:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn-white {
+  border-color: #fff;
+  background-color: #fff;
+  color: var(--color-primary);
+  transition: all .3s ease-in-out;
+}
+
+.btn-white:hover {
+  opacity: .5;
+}
+
+/* NAVIGATION */
+
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  color: var(--color-primary);
+  text-decoration: none;
+  padding: 0 1em;
+  transition: color .2s ease-in-out;
+}
+
+nav a:hover {
+  color: var(--secondary-color);
+}
+
+.logo {
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  color: var(--color-primary);
+  display: inline-block;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* ----------------------------------------- */
+
+/* BANNER */
+
+.banner {
+  background: url("https://via.placeholder.com/1440x500") center bottom / cover no-repeat;
+  height: 96vh;
+}
+
+/* SERVICES */
+
+.services h3 {
+  color: var(--color-primary);
+}
+
+.portfolio-title {
+  color: var(--color-primary);
+}
+
+.img-wrap {
+  position: relative;
+  transition: all .3s ease-in-out;
+}
+
+.img-wrap:hover {
+  transform: scale(1.05);
+}
+
+.img-wrap a {
+  text-decoration: none;
+}
+
+.img-description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--color-secondary);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  padding: 2em 0;
+}
+
+.img-wrap:hover .img-description {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* ABOUT */
+.about {
+  background-color: #F8F8F8;
+}
+
+.contact {
+  background-color: var(--color-primary);
+}
+
+.passion-projects h2 {
+  color: var(--color-primary);
+}
+
+.french-link {
+  color: var(--color-primary);
+  font-weight: 600;
+}
