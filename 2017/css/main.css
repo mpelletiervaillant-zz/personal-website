@@ -1,0 +1,155 @@
+/*COLOURS*/
+.white {
+  color: #fff;
+}
+
+.blue {
+  color: #8DCCCC;
+}
+
+.black {
+  color: #434343;
+}
+
+.red {
+  color: #ff0c00;
+}
+
+/*BUTTONS*/
+
+.banner-btn {
+  color: #8DCCCC;
+  text-decoration: none;
+  border: 1px solid #8DCCCC;
+  padding: .7em 1.9em;
+  font-size: .7rem;
+}
+
+.banner-btn:hover {
+  background-color: #8DCCCC;
+  color: #fff;
+  transition: background-color .35s, color .35s;
+}
+
+.red-btn {
+  color: red;
+  text-decoration: none;
+  border: 1px solid red;
+  padding: .7em 1.9em;
+  font-size: .7rem;
+}
+
+.red-btn:hover {
+  background-color: red;
+  color: #fff;
+  transition: background-color .35s, color .35s;
+}
+
+.white-btn {
+  color: #FFF;
+  text-decoration: none;
+  border: 1px solid #FFF;
+  padding: .7em 1.9em;
+  font-size: .7rem;
+}
+
+.white-btn:hover {
+  background-color: #FFF;
+  color: #8DCCCC;
+  transition: background-color .35s, color .35s;
+}
+
+.black-btn {
+  color: #434343;
+  text-decoration: none;
+  border: 1px solid #434343;
+  padding: .7em 1.9em;
+  font-size: .7rem;
+}
+
+.black-btn:hover {
+  color: #fff;
+  background-color: #434343;
+  transition: background-color .35s, color .35s;
+}
+
+.send-btn {
+  color: #8DCCCC;
+  text-decoration: none;
+  border: 1px solid #8DCCCC;
+  padding: .7em 1.5em;
+  font-size: .7rem;
+  background-color: #fff;
+}
+
+.send-btn:hover {
+  color: #fff;
+  background-color: #8DCCCC;
+  transition: background-color .35s, color .35s;
+}
+
+.french-btn {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+.french-btn:hover {
+  opacity: .5;
+  transition: opacity .35s;
+}
+
+.work-btn {
+  text-decoration: none;
+  font-size: .7rem;
+  min-width: 127px;
+}
+
+.work-btn-red {
+  color: #c64a2e;
+  border: 1px solid #c64a2e;
+}
+
+.work-btn-red:hover {
+  background-color: #c64a2e;
+  color: #fff;
+  transition: background-color .5s;
+}
+
+.work-btn-blue {
+  color: #8dcccc;
+  border: 1px solid #8dcccc;
+}
+
+.work-btn-blue:hover {
+  background-color: #8dcccc;
+  color: #fff;
+  transition: background-color .5s;
+}
+
+#highlight {
+  color: #000;
+}
+
+/*OTHER*/
+@media only screen and (min-width: 38em) {
+#highlight {
+  color: #8dcccc;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-btn,
+  .white-btn {
+    padding: .7em 1.5em;
+    font-size: .7rem;
+  }
+
+  #highlight {
+    color: #8dcccc;
+  }
+
+  .work-btn {
+    min-width: 156px;
+  }
+}

@@ -1,0 +1,441 @@
+:root {
+  --color-primary: #29ceb3;
+  --color-secondary: #383838;
+  --color-secondary-light: #626262;
+  --color-light-background: #f7f7f7;
+  --color-border: #95989a;
+  --font-primary: "Open Sans", arial, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+  font-weight: 300;
+}
+
+header [type="checkbox"]#menutoggle + label::before {
+  position: absolute;
+  left: -1000000px;
+}
+
+#brand a {
+  text-decoration: none;
+}
+
+/* header {
+  border-bottom: 1px solid var(--color-border);
+} */
+
+/* NAVIGATION */
+
+.menu {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  background-color: rgba(37, 185, 161, .7);
+  z-index: 1;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+}
+
+nav a {
+  display: block;
+  padding: 15px 0;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  background-color: var(--color-primary);
+  text-decoration: none;
+  font-size: 1.802rem;
+  font-weight: 600;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: var(--color-primary);
+}
+
+.logo {
+  width: 225px;
+  transition: all .2s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+/* ----------------------------------------- */
+
+label.menu-icon {
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  border-radius: 5px;
+  width: 44px;
+  transition: all .2s ease-in-out;
+}
+
+label img.open {
+  transition: all .2s ease-in-out;
+}
+
+label.menu-icon:hover {
+  transform: scale(1.1);
+}
+
+.close {
+  display: none;
+}
+
+#menutoggle {
+  display: none;
+}
+
+#menutoggle:checked ~ label img.open {
+  transform: rotate(90deg);
+}
+
+#menutoggle:checked ~ .menu {
+  height: 96vh;
+}
+
+.white {
+  color: #fff;
+}
+
+.blue {
+  color: var(--color-primary);
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+strong {
+  color: var(--color-primary);
+}
+
+.my-max-length {
+  max-width: 25em;
+  margin: 0 auto;
+}
+
+.my-wrapper {
+  max-width: 55em;
+  margin: 0 auto;
+}
+
+.border {
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* BUTTONS */
+
+.btn {
+  border: 1px solid var(--color-primary);
+  font-weight: 400;
+  color: white;
+  padding: .5em 1.7em;
+  transition: all .3s ease-in-out;
+  font-size: .7rem;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+}
+
+.ghost-btn {
+  color: var(--color-primary);
+}
+
+.ghost-btn:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn-white {
+  border-color: #fff;
+  background-color: #fff;
+  color: var(--color-primary);
+  transition: all .3s ease-in-out;
+}
+
+.btn-white:hover {
+  opacity: .5;
+}
+
+/* ----------------------------------------- */
+
+/* BANNER */
+
+.banner {
+  background: url("../images/banner-maybe.jpg") center center / cover no-repeat;
+  height: 600px;
+}
+
+/* SERVICES */
+
+.services h3 {
+  color: var(--color-primary);
+}
+
+.portfolio-title {
+  color: var(--color-primary);
+}
+
+.portfolio-text {
+  color: var(--color-secondary);
+}
+
+.img-wrap {
+  position: relative;
+  transition: all .3s ease-in-out;
+}
+
+.img-wrap:hover {
+  transform: scale(1.05);
+}
+
+.img-wrap a {
+  text-decoration: none;
+}
+
+.img-description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--color-secondary);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  padding: 2em 0;
+}
+
+.img-wrap:hover .img-description {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* ABOUT */
+.about {
+  background-color: #F8F8F8;
+}
+
+.contact {
+  background-color: var(--color-primary);
+}
+
+.passion-projects h2 {
+  color: var(--color-primary);
+}
+
+.french-link {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+  cursor: pointer;
+}
+
+.text {
+  white-space: nowrap;
+  color: 000;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.sm-icon {
+  color: #D8D8D8;
+  transition: color .3s ease-in-out;
+}
+
+.sm-icon:hover {
+  color: var(--color-primary);
+}
+
+.social-list {
+  margin: 0;
+}
+
+/* --------ABOUT---------- */
+
+.about-icon {
+  transition: all .2s ease-in-out;
+}
+
+.about-icon:hover {
+  transform: rotate(-20deg);
+}
+
+/* --------CONTACT---------- */
+
+input,
+textarea {
+  border-bottom: 2px solid var(--color-primary);
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+select {
+  background-color: blue;
+}
+
+form label {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.flag-optional {
+  color: #999;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+}
+
+.error-message-highlighted {
+  background-color: #c33;
+  color: #fff;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
+
+.sw {
+  color: var(--color-secondary);
+  stroke: var(--color-secondary);
+  fill: var(--color-secondary);
+  transition: all .15s ease-in-out;
+}
+
+.sw-text {
+  color: #fff;
+}
+
+
+.sw:hover {
+  color: var(--color-primary);
+  stroke: var(--color-primary);
+  fill: var(--color-primary);
+  transform: scale(1.1);
+}
+
+.sw:hover ~ .sw-text {
+  color: var(--color-primary);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .left {
+    text-align: left;
+  }
+
+  .right {
+    text-align: right;
+  }
+
+@media only screen and (min-width: 60em) {
+
+  nav a {
+    display: block;
+    background-color: #fff;
+    color: var(--color-primary);
+    border: none;
+    padding: .5em .75em;
+    font-size: 1rem;
+  }
+
+  nav a:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  .nav-info {
+    display: none;
+  }
+
+  nav {
+    text-align: right;
+  }
+
+  .menu {
+    width: 70%;
+    position: static;
+    background: #fff;
+    display: inline-block;
+    border: none;
+    overflow: visible;
+  }
+
+  label.menu-icon {
+    display: none;
+  }
+
+  #brand {
+    display: inline-block;
+    height: auto;
+    width: 25%;
+    padding-left: .5em;
+  }
+}
