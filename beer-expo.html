@@ -7,7 +7,7 @@
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
-  <link href="css/main-two.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
   <link rel="apple-touch-icon" href="favicon-196.png">
   <link href="favicon.ico" rel="shortcut icon">
@@ -18,30 +18,29 @@
     <li><a href="#main">Jump to main content</a></li>
   </ul>
 
-  <header class="border-btm" role="banner">
+  <header class="border-btm">
+    <div class="grid grid-middle">
+      <div class="unit xs-3-4 m-1-4 logo-header island-1-2">
+        <h1 class="push-0 blue mega">Melany PV</h1>
+      </div>
+      <div class="unit xs-1-4 m-0 text-right island-1-2">
+        <button class="nav-label relative">
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
 
-    <input type="checkbox" id="menutoggle">
-
-    <label for="menutoggle" class="menu-icon">
-      <img class="img-flex open" src="images/drop-down.svg" alt="Open Navigation">
-    </label>
-
-    <div id="brand" class="pad-b-1-2 text-center pad-t-1-2">
-      <a href="index.html">
-        <p class="push-0">Melany Designs</p>
-      </a>
-    </div>
-
-    <div class="menu text-center">
-      <nav role="navigation" id="nav" tabindex="0">
-        <ol class="list-group push-0">
-          <li><a class="index.html" href="about.html">About</a></li>
-          <li><a class="" href="index.html#work">Work</a></li>
-          <li><a class="" href="#">Heart</a></li>
-          <li><a class="" href="contact.html">Contact</a></li>
-        </ol>
-      </nav>
-    </div>
+    <nav class="unit m-3-4 menu">
+      <ul class="list-group push-0 nav-list text-center">
+        <li><a class="bold" href="index-test.html">Home</a></li>
+        <li><a class="bold" href="about.html">About</a></li>
+        <li><a class="bold" href="#">Work</a></li>
+        <li><a class="bold" href="#">Heart</a></li>
+        <li><a class="bold" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
   </header>
 
   <div class="grid wrapper pad-t-2 pad-b-2 border-btm">
@@ -118,16 +117,40 @@
       <div class="unit xs-1 s-1 m-1 l-1 gutter">
         <h3 class="blue">Web Banners</h3>
         <figure>
-          <img class="img-flex" src="images/beer-expo/leader-board.jpg" alt="">
+          <img class="img-flex" src="images/beer-expo/beer-expo-computer-mockup.jpg" alt="">
           <figcaption class="italic micro">Leaderboard</figcaption>
         </figure>
       </div>
-      <div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter">
-        <figure class="banner-width">
-          <img class="img-flex" src="images/beer-expo/vertical-banner.jpg" alt="">
-          <figcaption class="italic micro">Vertical Banner</figcaption>
-        </figure>
+    </div>
+  </section>
+
+  <section class="wrapper pad-t-2 pad-b-2">
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-2">
+        <h3 class="blue push-0 work-max-length">Other Elements</h3>
+        <p class="work-max-length">The primary orange is to remind audiences of Beer. The rest are to create a primary colour palette to decorate the remainder of Beer City.</p>
       </div>
+        <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4">
+          <img class="img-flex" src="images/beer-expo/beer-expo-stickers-logo-mockup.jpg" alt="">
+        </div>
+
+        <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4  xl-1-4">
+          <img class="img-flex" src="images/beer-expo/beer-expo-stickers-truck-mockup.jpg" alt="">
+        </div>
+
+        <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4  xl-1-4">
+          <img class="img-flex" src="images/beer-expo/beer-expo-stickers-gas-mockup.jpg" alt="">
+        </div>
+
+        <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4">
+          <img class="img-flex" src="images/beer-expo/beer-expo-stickers-wordmark-mockup.jpg" alt="">
+        </div>
+      </div>
+
+        <div class="unit xs-1">
+          <img class="img-flex" src="images/beer-expo/beer-expo-tickets-mockup.jpg" alt="">
+        </div>
+
     </div>
   </section>
 
@@ -173,5 +196,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
