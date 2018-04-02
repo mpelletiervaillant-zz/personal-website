@@ -19,6 +19,18 @@ html {
   font-weight: 300;
 }
 
+.logo  {
+  text-decoration: none;
+}
+
+.logo p {
+    transition: opacity .2s ease-in-out;
+}
+
+.logo p:hover {
+  opacity: .3;
+}
+
 .nav-label {
   width: 2rem;
   height: 1.5rem;
@@ -105,7 +117,7 @@ nav li a {
   text-decoration: none;
 }
 
-nav li  a:hover {
+nav li a:hover {
   color: var(--color-primary);
   background-color: #fff;
 }
@@ -156,6 +168,10 @@ strong {
   border-bottom: 1px solid var(--color-border);
 }
 
+.drop-shadow {
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, .5));
+}
+
 /* BUTTONS */
 
 .btn {
@@ -201,7 +217,7 @@ strong {
 }
 
 .banner {
-  background: #4CCCB9 center center / cover no-repeat;
+  background: linear-gradient(to top, rgba(59, 186, 167, 0) 98%, rgba(44, 153, 136, .8)), #4CCCB9 center center / cover no-repeat;
   height: 450px;
 }
 
@@ -333,6 +349,10 @@ strong {
   -ms-transform: translate(-50%, -50%);
 }
 
+.passion-project-tools {
+  max-width: 300px;
+}
+
 .sm-icon {
   color: var(--color-primary);
   transition: color .3s ease-in-out;
@@ -425,6 +445,18 @@ form label {
   display: block;
 }
 
+.previous,
+.next {
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+}
+
+.previous:hover,
+.next:hover {
+  color: var(--color-secondary);
+  cursor: pointer;
+}
+
 /* --------BEER EXPO---------- */
 
 .banner-width {
@@ -448,7 +480,6 @@ form label {
   color: #fff;
 }
 
-
 .sw:hover {
   color: var(--color-primary);
   stroke: var(--color-primary);
@@ -458,6 +489,13 @@ form label {
 
 .sw:hover ~ .sw-text {
   color: var(--color-primary);
+}
+
+/* --------STUDY GROUPS---------- */
+
+.study-group-mockup {
+  max-width: 350px;
+  float: right;
 }
 
 @media only screen and (min-width: 38em) {
@@ -513,14 +551,14 @@ form label {
 
     .portrait-banner {
       bottom: 0;
-      max-width: 500px;
+      width: 450px;
       left: 30%;
     }
 
     .banner-content {
       text-align: left;
-      left: 50%;
-      top: 20%;
+      left: 99%;
+      top: 50%;
       transform: translate(-50%, -50%);
       width: 100%;
       font-family: var(--font-secondary);

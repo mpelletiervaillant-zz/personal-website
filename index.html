@@ -7,8 +7,8 @@
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
-  <link href="css/main-two.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600|Open+Sans:300,300i,600" rel="stylesheet">
   <link rel="apple-touch-icon" href="favicon-196.png">
   <link href="favicon.ico" rel="shortcut icon">
 </head>
@@ -18,46 +18,52 @@
     <li><a href="#main">Jump to main content</a></li>
   </ul>
 
-  <header role="banner">
-    <input type="checkbox" id="menutoggle">
+  <header class="">
+    <div class="grid grid-middle">
+      <div class="unit xs-3-4 m-1-4 logo-header island-1-2">
+        <a class="logo" href="index.html"><p class="push-0 blue bold mega montserrat">Mélany PV</p></a>
+      </div>
+      <div class="unit xs-1-4 m-0 text-right island-1-2">
+        <button class="nav-label relative">
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
 
-    <label for="menutoggle" class="menu-icon">
-      <img class="img-flex open" src="images/drop-down.svg" alt="Open Navigation">
-    </label>
-
-    <div id="brand" class="pad-b-1-2 pad-t-1-2">
-      <a href="index.html">
-        <p class="push-0 blue semibold gutter">Melany Designs</p>
-      </a>
-    </div>
-
-    <div class="menu">
-      <nav role="navigation" id="nav" tabindex="0">
-        <ol class="list-group push-0">
-          <li><a class="" href="about.html">About</a></li>
-          <li><a class="" href="#work">Work</a></li>
-          <li><a class="" href="#">Heart</a></li>
-          <li><a class="" href="contact.html">Contact</a></li>
-        </ol>
-      </nav>
-    </div>
-  </header>
+    <nav class="unit m-3-4 menu">
+      <ul class="list-group push-0 nav-list text-center">
+        <li><a href="#">Home</a></li>
+        <li><a  href="#">Work</a></li>
+        <li><a href="#">Heart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+</div>
+</header>
 
   <section>
     <div class="masthead">
       <div class="banner relative">
+        <div class="absolute pin-bc portrait-banner">
+          <img class="img-flex" src="images/portrait.svg" alt="">
+        </div>
+        <div class="banner-content absolute">
+          <h1 class="push-0 white">MEET MÉLANY</h1>
+          <h2 class="push-0 white light">GRAPHIC DESGINER</h2>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="pad-t-2 pad-b-2">
-    <div class="text-center my-max-length">
-      <p class="peta push-0">Welcome to my website! I'm Melany, a graphic designer based in Ottawa. I'm devoted to my work and want to help you bring your ideas to life.</p>
+  <section class="pad-t-2 pad-b-2 border-btm">
+    <div class="text-center my-max-length pad-t-2 pad-b-2">
+      <p class="peta push-0">I'm Mélany, a graphic designer based in Ottawa. I <strong>live</strong> for creating great work and want to help you being your vision to life.</p>
     </div>
   </section>
 
-  <section class="services wrapper pad-t-2 pad-b-2 border">
-    <ul class="grid gutter list-group">
+  <!-- <section class="services wrapper pad-t-2 pad-b-2 border">
+    <ul class="grid gutter list-group pad-t-2 pad-b-2">
       <li class="unit xs-1 s-1 m-1-3 gutter">
         <img src="" alt="">
         <h3 class="push-0 mega">Lettering</h3>
@@ -74,40 +80,15 @@
         <p class="milli">I offer hand lettering services for all occasions! From weddings, to simple greeting cards, I love helping personalize your day.</p>
       </li>
     </ul>
-  </section>
+  </section> -->
 
-<section id="work" class="projects center-text island wrapper">
+<section id="work" class="projects center-text wrapper pad-t-2 pad-b-2">
   <div class="pad-t-2 pad-b-2">
     <div class="grid">
 
       <div class="container island-1-2 unit xs-1 m-1-3">
-        <a class="ib" href="occo-catering.html">
-          <img class="image" src="images/front-occo-square.jpg" alt="">
-          <div class="overlay">
-            <div class="text">
-              <p class="giga push-0 portfolio-title semibold">CATERING MENU</p>
-              <p class="push-0 portfolio-text">Layout Design</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="container island-1-2 unit xs-1 m-1-3">
-        <a class="ib" href="work-game-consoles.html">
-        <img class="image" src="images/switch-square.jpg" alt="">
-        <div class="overlay">
-          <div class="text">
-            <p class="giga push-0 portfolio-title semibold">GAME CONSOLES</p>
-            <p class="push-0 portfolio-text">Illustration</p>
-          </div>
-        </div></a>
-
-      </div>
-
-
-      <div class="container island-1-2 unit xs-1 m-1-3">
         <a class="ib" href="beer-expo.html">
-        <img class="image" src="images/beer-expo/branding.jpg" alt="">
+        <img class="image" src="images/beer-expo/beer-expo-poster-mockup-square.jpg" alt="">
         <div class="overlay">
           <div class="text">
             <p class="giga push-0 portfolio-title semibold">BEER EXPO</p>
@@ -117,16 +98,40 @@
       </a>
       </div>
 
+      <div class="container island-1-2 unit xs-1 m-1-3">
+        <a class="ib" href="study-groups.html">
+          <img class="image" src="images/study-groups/study-groups-phone-mockup-square.jpg" alt="">
+          <div class="overlay">
+            <div class="text">
+              <p class="giga push-0 portfolio-title semibold">STUDY GROUPS</p>
+              <p class="push-0 portfolio-text">UX & UI Design</p>
+            </div>
+          </div>
+        </a>
+      </div>
 
       <div class="container island-1-2 unit xs-1 m-1-3">
-        <a class="ib" href="lettering.html">
-        <img class="image" src="images/ottawa-ontario.jpg" alt="">
+        <a class="ib" href="branding.html">
+          <img class="image" src="images/vet-branding-stationery-mockup-square.jpg" alt="">
+          <div class="overlay">
+            <div class="text">
+              <p class="giga push-0 portfolio-title semibold">CUMBERLAND<br>VETERINARY<br>HOSPITAL</p>
+              <p class="push-0 portfolio-text">Branding</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="container island-1-2 unit xs-1 m-1-3">
+        <a class="ib" href="illustration.html">
+        <img class="image" src="images/ps4-final.jpg" alt="">
         <div class="overlay">
           <div class="text">
-            <p class="giga push-0 portfolio-title semibold">LETTERING</p>
-            <p class="push-0 portfolio-text">Lettering</p>
+            <p class="giga push-0 portfolio-title semibold">GAME CONSOLES</p>
+            <p class="push-0 portfolio-text">Illustration</p>
           </div>
         </div></a>
+
       </div>
 
 
@@ -144,97 +149,35 @@
 
 
       <div class="container island-1-2 unit xs-1 m-1-3">
-        <img class="image" src="images/spin-menu-square.jpg" alt="">
+        <a class="ib" href="spin-menus.html">
+        <img class="image" src="images/spin-lunch-menu-mockup-2.jpg" alt="">
         <div class="overlay">
           <div class="text">
             <p class="giga push-0 portfolio-title semibold">SPIN MENU</p>
             <p class="push-0 portfolio-text">Layout Design</p>
           </div>
         </div>
+      </a>
       </div>
     </div>
   </div>
 </section>
 
   <section class="contact text-center pad-t-2 pad-b-2">
-    <h2 class="white">Have a project in mind? Drop me a line!</h2>
+    <h2 class="white">Have a project in mind? Let's chat!</h2>
     <a class="ib btn btn-white" href="#">CONTACT</a>
   </section>
 
   <section class="wrapper passion-projects pad-t-2 pad-b-2">
-    <div class="grid grid-middle">
+    <div class="grid grid-middle pad-t-2 pad-b-2">
       <div class="unit xs-1 s-1 m-1-2 gutter">
-        <h2 class="push-1-2 giga">Passion Projects</h2>
+        <h2 class="push-1-2 exa blue">Passion Projects</h2>
         <p class="">I believe that Passion Projects are a must to keep the creative juices flowing. I keep myself busy on the side to learn new skills or just explore my abilities. Take a look at my latest and favourite project: Star Wars Icons.</p>
         <a class="ib btn ghost-btn" href="star-wars-icons.html">JOIN THE DARK SIDE</a>
       </div>
-      <div class="unit xs-1 s-1 m-1-2">
-        <div class="grid">
-      <div class="text-center unit xs-1-2 s-1-3 m-1-3 l-1-3 pad-b-1-2">
-        <i class="icon i-96 ib sw">
-          <svg><use xlink:href="images/star-wars-sheet.svg#death-star" /></svg>
-        </i>
-        <p class="push-0 milli sw-text">Death Star</p>
-      </div>
-
-      <div class="text-center unit xs-1-2 s-1-3 m-1-3 l-1-3 pad-b-1-2">
-        <i class="icon i-96 ib sw">
-          <svg><use xlink:href="images/star-wars-sheet.svg#yoda" /></svg>
-        </i>
-        <p class="push-0 milli sw-text">Yoda</p>
-      </div>
-
-        <div class="text-center unit xs-1-2 s-1-3 m-1-3 l-1-3 pad-b-1-2">
-          <i class="icon i-96 sw ib">
-            <svg><use xlink:href="images/star-wars-sheet.svg#darth-vader" /></svg>
-          </i>
-          <p class="push-0 milli sw-text">Darth Vader</p>
-        </div>
-
-        <div class="text-center unit xs-1-2 s-1-3 m-1-3 l-1-3 pad-b-1-2">
-          <i class="icon i-96 sw ib">
-            <svg><use xlink:href="images/star-wars-sheet.svg#han-solo" /></svg>
-          </i>
-          <p class="push-0 milli sw-text">Han Solo</p>
-        </div>
-
-        <div class="text-center unit xs-1-2 s-1-3 m-1-3 l-1-3 pad-b-1-2">
-          <i class="icon i-96 sw ib">
-            <svg><use xlink:href="images/star-wars-sheet.svg#first-order" /></svg>
-          </i>
-          <p class="push-0 milli sw-text">First Order</p>
-        </div>
-
-        <div class="text-center unit xs-1-2 s-1-3 m-1-3 l-1-3 pad-b-1-2">
-          <i class="icon i-96 sw ib">
-            <svg><use xlink:href="images/star-wars-sheet.svg#luke" /></svg>
-          </i>
-          <p class="push-0 milli sw-text">Luke Skywalker</p>
-        </div>
-
-        <div class="text-center gutter-1-2 unit xs-1-2 s-1-3 m-1-3 l-1-3">
-          <i class="icon i-96 sw ib">
-            <svg><use xlink:href="images/star-wars-sheet.svg#millenium-falcon" /></svg>
-          </i>
-          <p class="push-0 milli sw-text">Millenium Falcon</p>
-        </div>
-
-        <div class="text-center gutter-1-2 unit xs-1-2 s-1-3 m-1-3 l-1-3">
-          <i class="icon i-96 sw ib">
-            <svg><use xlink:href="images/star-wars-sheet.svg#tie-fighter" /></svg>
-          </i>
-          <p class="push-0 milli sw-text">Tie Fighter</p>
-        </div>
-
-        <div class="text-center gutter-1-2 unit xs-1-2 s-1-3 m-1-3 l-1-3">
-          <i class="icon i-96 sw ib">
-            <svg><use xlink:href="images/star-wars-sheet.svg#delta-7" /></svg>
-          </i>
-          <p class="push-0 milli sw-text">Delta 7</p>
-        </div>
-      </div>
+      <div class="unit xs-1 s-1 m-1-2 gutter">
+        <img class="img-flex passion-project-tools" src="images/tools-illustration.jpg" alt="">
     </div>
-  </div>
   </section>
 
   <footer class="pad-t pad-b border">
@@ -277,5 +220,9 @@
       <div class="unit xs-1 s-1 m-1-3 gutter text-center right">
         <p class="push-0 micro">Website coded by yours truly<br><a class="french-link" href="#">Version Francaise</a></p>
       </div>
+    </div>
+  </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
