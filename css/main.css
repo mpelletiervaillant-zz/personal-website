@@ -176,6 +176,10 @@ strong {
   border: 1px solid #efefef;
 }
 
+.current {
+  border-bottom: 2px solid var(--color-primary);
+}
+
 /* BUTTONS */
 
 .btn {
